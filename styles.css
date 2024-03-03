@@ -1,0 +1,426 @@
+/* CSS personalizado começa aqui */
+
+:root {
+  --main-white: #4682B4;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+/* Estilos básicos de redefinição */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box-sizing e tamanho de fonte */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Estilos base */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+}
+
+.body{
+  display: flex;
+  justify-content: space-between;
+  font-size:1.0rem;
+  margin-top: 2rem;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+h3{
+  text-decoration: underline;
+  font-size: 1.5rem
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Estilos de navegação */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #B0C4DE;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
+}
+
+/*CheckBox */
+.toogle{
+  position: absolute;
+  display: inline-flex;
+  top:1em;
+  left: 2em;
+}
+.toogle-text{
+  display: inline-grid;
+  margin: 2px;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4682B4;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Seção de boas-vindas */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 4rem;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #45567d 0%, #F0FFFF 100%);
+  color: #303841;
+}
+
+.welcome-section > p {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #303841;
+}
+
+.left{
+  padding-top:0.5rem;
+  padding-right:1rem;
+  padding-left:1rem;
+  border-right: 1px solid #45567d;
+}
+
+.middle{
+  padding-top: 0.5rem;
+  padding-left:1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #45567d;
+}
+
+.right{
+  padding-top: 0.5rem;
+  padding-left:1rem;
+  padding-right: 1rem
+}
+
+.skills{
+  display: flex;
+  flex-direction: inline;
+  justify-content: space-between;
+  align-items: space-between;
+  overflow: inherit;
+  width: 50%
+  
+}
+
+.icons{
+  width: 3rem;
+  height: 3rem
+}
+
+/* Seção cursos */
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #45567d;
+  font-size: 0.5rem;
+  align-items: flex-start; 
+}
+
+.courses-header {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem; 
+  border-bottom: 0.2rem solid var(--main-white);
+  color: #303841
+}
+
+.course {
+  background: var(--main-gray);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  width: calc(50% - 2rem);
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.course h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course p {
+  font-size: 1.6rem;
+}
+.course:hover {
+  transform: scale(1.1); 
+}
+
+@media screen and (min-width: 768px) {
+  .course {
+    width: calc(33.33% - 2rem);
+  }
+}
+
+/* Seção de projetos */
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+background-image:linear-gradient(50deg, #45567d 40%, #B0C4DE 100%);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+  color: #303841
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project {
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%
+}
+
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+  color: #ff7f50;
+}
+
+.project-image {
+  height: 200px; /* ou qualquer outra altura desejada */
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: var(--main-gray);
+  transition: background 0.3s ease-out;
+}
+
+.btn-show-all:hover {
+  background: var(--main-red);
+}
+
+.btn-show-all:hover > i {
+  transform: translateX(2px);
+}
+
+.btn-show-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+/* Seção de contato */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+/* Rodapé */
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
