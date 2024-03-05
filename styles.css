@@ -462,4 +462,7 @@ footer i {
     line-height: 28px;
     color: var(--text);
 }
-	
+
+.cv:hover{
+  background: var(--main-blue-light);
+}
