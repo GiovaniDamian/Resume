@@ -44,7 +44,7 @@ document.querySelectorAll('.button').forEach(button => {
 
     button.addEventListener('click', e => {
     e.preventDefault(); 
-    alert("Uma nova guia será aberta);
+    window.alert("Uma nova guia será aberta);
     if (!button.classList.contains('loading')) {
         button.classList.add('loading');
 
