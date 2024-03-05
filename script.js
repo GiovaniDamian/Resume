@@ -45,39 +45,38 @@ document.querySelectorAll('.button').forEach(button => {
 
     button.addEventListener('click', e => {
         e.preventDefault();
-        setTimeout(function() {
-            if(!button.classList.contains('loading')) {
+        if(!button.classList.contains('loading')) {
 
-                button.classList.add('loading');
+            button.classList.add('loading');
 
-                gsap.to(svgPath, {
-                    smoothing: .3,
-                    duration: duration * .065 / 1000
-                });
+            gsap.to(svgPath, {
+                smoothing: .3,
+                duration: duration * .065 / 1000
+            });
 
-                gsap.to(svgPath, {
-                    y: 12,
-                    duration: duration * .265 / 1000,
-                    delay: duration * .065 / 1000,
-                    ease: Elastic.easeOut.config(1.12, .4)
-                });
+            gsap.to(svgPath, {
+                y: 12,
+                duration: duration * .265 / 1000,
+                delay: duration * .065 / 1000,
+                ease: Elastic.easeOut.config(1.12, .4)
+            });
 
+            setTimeout(() => {
+                svg.innerHTML = getPath(0, 0, [
+                    [3, 14],
+                    [8, 19],
+                    [21, 6]
+                ]);
+
+                // Redirecionamento após a animação
                 setTimeout(() => {
-                    svg.innerHTML = getPath(0, 0, [
-                        [3, 14],
-                        [8, 19],
-                        [21, 6]
-                    ]);
-
-                    // Redirecionamento após a animação
-                    setTimeout(() => {
-                        window.location.href = button.getAttribute('href');
-                    }, duration);
-                }, duration / 2);
-            }
-        });
+                    window.location.href = button.getAttribute('href');
+                }, duration);
+            }, duration / 2);
+        }
     });
 });
+
 
 
 function getPoint(point, i, a, smoothing) {
