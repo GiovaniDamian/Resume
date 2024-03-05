@@ -193,7 +193,7 @@ input:checked + .slider:before {
   height: 100vh;
   padding-top: 4rem;
   background-color: #000;
-  background-image: linear-gradient(62deg, #45567d 0%, #F0FFFF 100%);
+  background-image: linear-gradient(60deg,  var(--main-blue-light) 0%, #F0FFFF 80%);
   color: var(--main-blue-dark);
 }
 
