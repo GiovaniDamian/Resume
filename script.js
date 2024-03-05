@@ -14,21 +14,21 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         );
     });
-});
-
-document.getElementById('downloadBtnPT').addEventListener('click', function(event) {
+    
+    document.getElementById('downloadBtnPT').addEventListener('click', function(event) {
     event.preventDefault();
     setTimeout(function() {
         window.open('https://drive.google.com/file/d/14mgiIGJbzTK8e9pjcm1apvIIVASTbj4S/view?usp=sharing', '_blank');
     }, 5000);
 });
-document.getElementById('downloadBtnEN').addEventListener('click', function(event) {
+    
+    document.getElementById('downloadBtnEN').addEventListener('click', function(event) {
     event.preventDefault();
     setTimeout(function() {
         window.open('https://drive.google.com/file/d/1_rF3hjC6Md5uJnlTAhxas_oN6tX0pHkc/view?usp=sharing', '_blank');
     }, 5000);
 });
-
+});
 
 document.querySelectorAll('.button').forEach(button => {
 
