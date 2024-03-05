@@ -43,7 +43,7 @@ document.querySelectorAll('.button').forEach(button => {
     svgPath.smoothing = 0;
 
     button.addEventListener('click', e => {
-    e.preventDefault(); // Remover o comportamento padrão do botão
+    e.preventDefault(); 
 
     if (!button.classList.contains('loading')) {
         button.classList.add('loading');
@@ -66,7 +66,9 @@ document.querySelectorAll('.button').forEach(button => {
                 ]);
 
                 // Redirecionamento após a animação
-                window.location.href = button.getAttribute('href');
+                setTimeout(() => {
+                    window.location.href = button.getAttribute('href');
+                }, 5000); 
             }
         });
     }
