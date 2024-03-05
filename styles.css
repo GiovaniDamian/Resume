@@ -10,7 +10,6 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: inside;
 }
 
 /* Box-sizing e tamanho de fonte */
@@ -40,7 +39,7 @@ body {
 .body{
   display: flex;
   justify-content: space-between;
-  font-size:1.2rem;
+  font-size:1rem;
   margin-top: 2rem;
 }
 
@@ -196,6 +195,10 @@ input:checked + .slider:before {
   background-color: #000;
   background-image: linear-gradient(62deg, #45567d 0%, #F0FFFF 100%);
   color: var(--main-blue-dark);
+}
+
+.welcome-section > ul {
+  list-style: inside;
 }
 
 .welcome-section > p {
