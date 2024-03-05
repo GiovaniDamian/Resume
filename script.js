@@ -43,8 +43,8 @@ document.querySelectorAll('.button').forEach(button => {
     svgPath.smoothing = 0;
 
     button.addEventListener('click', e => {
-    e.preventDefault(); // Remover o comportamento padrão do botão
-
+    e.preventDefault(); 
+    alert("Uma nova guia será aberta);
     if (!button.classList.contains('loading')) {
         button.classList.add('loading');
 
