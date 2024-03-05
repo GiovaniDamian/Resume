@@ -43,7 +43,7 @@ document.querySelectorAll('.button').forEach(button => {
     svgPath.smoothing = 0;
 
     button.addEventListener('click', e => {
-    e.preventDefault(); 
+    e.preventDefault(); // Remover o comportamento padrão do botão
 
     if (!button.classList.contains('loading')) {
         button.classList.add('loading');
@@ -65,14 +65,21 @@ document.querySelectorAll('.button').forEach(button => {
                     [21, 6]
                 ]);
 
-                // Redirecionamento após a animação
-                setTimeout(() => {
+                // Cria uma Promise para a animação
+                const animationPromise = new Promise(resolve => {
+                    setTimeout(() => {
+                        resolve(); 
+                    }, 5000); 
+                });
+
+                animationPromise.then(() => {
                     window.location.href = button.getAttribute('href');
-                }, 5000); 
+                });
             }
         });
     }
 });
+
 });
 
 
