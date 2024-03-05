@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.getElementById('downloadBtn').addEventListener('click', function(event) {
+    event.preventDefault();
+    setTimeout(function() {}, 5000);
+});
+
 document.querySelectorAll('.button').forEach(button => {
 
     let duration = 3000,
