@@ -389,24 +389,48 @@ MySQL);</li>
       </div>
       <div class="contact-links">
         <a
+          href="https://www.linkedin.com/in/giovanidamian/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-linkedin-in"></i></a>
+        <a
           href="https://www.instagram.com/d_giovani_/"
           target="_blank"
           class="btn contact-details"
-          ><i class="fab fa-brands fa-instagram"></i> Instagram</a>
+          ><i class="fab fa-brands fa-instagram"></i></a>
           <a
           href="https://wa.me/5548991503304"
           target="_blank"
           class="btn contact-details"
-          ><i class="fab fa-brands fa-whatsapp"></i> Whatsapp</a>
+          ><i class="fab fa-brands fa-whatsapp"></i></a>
           <a
           href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhnsTTpNgtbVPxTttKqrKlsNgqjZmGkSTcNLQtztfXQwDbFtCZVGblLFrZSkCkzWztFTg"
           target="_blank"
           class="btn contact-details"
-          <i>> E-mail</a>
+          ><i class="fa fa-envelope" aria-hidden="true"></i></a>
         <!-- Adicione mais links de contato conforme necessário -->
-      </div>
-    </section>
-
+      </div></br>
+      <a show href="https://drive.google.com/file/d/14mgiIGJbzTK8e9pjcm1apvIIVASTbj4S/view?usp=drive_link" class="button dark">
+        <ul show>
+            <li show>&#68;ownload CV</li>
+            <li show>&#68;ownloading</li>
+            <li show>Abrir</li>
+        </ul>
+        <div show>
+            <svg show viewBox="0 0 24 24"></svg>
+        </div>
+    </a>
+    <a hidden href="https://drive.google.com/file/d/1_rF3hjC6Md5uJnlTAhxas_oN6tX0pHkc/view?usp=drive_link" class="button dark">
+        <ul hidden >
+            <li hidden >&#68;ownload CV</li>
+            <li hidden >&#68;ownloading</li>
+            <li hidden >Open File</li>
+        </ul>
+        <div hidden>
+            <svg hidden viewBox="0 0 24 24"></svg>
+        </div>
+    </a>
+    
     <!-- END CONTACT SECTION -->
 
     <!-- START FOOTER SECTION -->
@@ -420,24 +444,4 @@ MySQL);</li>
   </body>
 </html>
 
-
-
-<script>
- document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.getElementById('toogleBtn');
-
-    toggleButton.addEventListener('click', function() {
-    const elementsShow = document.querySelectorAll('[show]');
-    const elementsHidden = document.querySelectorAll('[hidden]');
-        elementsShow.forEach(element => {
-      element.removeAttribute('show');
-      element.setAttribute('hidden', '');
-            }) ;
-        elementsHidden.forEach(element =>{
-       element.removeAttribute('hidden');
-       element.setAttribute('show', '');
-            }
-        );
-    });
-});
-</script>
+<script src="./script.js"></script>
