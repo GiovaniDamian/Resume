@@ -19,21 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.querySelectorAll('.button').forEach(button => {
-
-     document.getElementById('downloadBtnPT').addEventListener('click', function(event) {
-    event.preventDefault();
-    setTimeout(function() {
-        window.open('https://drive.google.com/file/d/14mgiIGJbzTK8e9pjcm1apvIIVASTbj4S/view?usp=sharing', '_blank');
-    }, 5000);
-});
-    
-    document.getElementById('downloadBtnEN').addEventListener('click', function(event) {
-    event.preventDefault();
-    setTimeout(function() {
-        window.open('https://drive.google.com/file/d/1_rF3hjC6Md5uJnlTAhxas_oN6tX0pHkc/view?usp=sharing', '_blank');
-    }, 5000);
-});
-    
+  
     let duration = 3000,
         svg = button.querySelector('svg'),
         svgPath = new Proxy({
@@ -58,9 +44,8 @@ document.querySelectorAll('.button').forEach(button => {
     svgPath.smoothing = 0;
 
     button.addEventListener('click', e => {
-        
         e.preventDefault();
-
+        setTimeout(function() {
         if(!button.classList.contains('loading')) {
 
             button.classList.add('loading');
@@ -84,11 +69,9 @@ document.querySelectorAll('.button').forEach(button => {
                     [21, 6]
                 ]);
             }, duration / 2);
-
         }
-
     });
-
+    }, 5000);
 });
 
 function getPoint(point, i, a, smoothing) {
