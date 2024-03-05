@@ -43,43 +43,34 @@ document.querySelectorAll('.button').forEach(button => {
     svgPath.smoothing = 0;
 
     button.addEventListener('click', e => {
-        e.preventDefault();
-        if (!button.classList.contains('loading')) {
-            button.classList.add('loading');
+    e.preventDefault(); // Remover o comportamento padrão do botão
 
-            gsap.to(svgPath, {
-                smoothing: .3,
-                duration: duration * .065 / 1000
-            });
+    if (!button.classList.contains('loading')) {
+        button.classList.add('loading');
 
-            gsap.to(svgPath, {
-                y: 12,
-                duration: duration * .265 / 1000,
-                delay: duration * .065 / 1000,
-                ease: Elastic.easeOut.config(1.12, .4),
-                onComplete: () => {
-                    svg.innerHTML = getPath(0, 0, [
-                        [3, 14],
-                        [8, 19],
-                        [21, 6]
-                    ]);
+        gsap.to(svgPath, {
+            smoothing: .3,
+            duration: duration * .065 / 1000
+        });
 
-                    // Redirecionamento após a animação usando fetch
-                    fetch(button.getAttribute('href'))
-                        .then(response => {
-                            if (response.ok) {
-                                window.location.href = button.getAttribute('href');
-                            } else {
-                                console.error('Erro ao carregar a página:', response.status);
-                            }
-                        })
-                        .catch(error => {
-                            console.error('Erro ao carregar a página:', error);
-                        });
-                }
-            });
-        }
-    });
+        gsap.to(svgPath, {
+            y: 12,
+            duration: duration * .265 / 1000,
+            delay: duration * .065 / 1000,
+            ease: Elastic.easeOut.config(1.12, .4),
+            onComplete: () => {
+                svg.innerHTML = getPath(0, 0, [
+                    [3, 14],
+                    [8, 19],
+                    [21, 6]
+                ]);
+
+                // Redirecionamento após a animação
+                window.location.href = button.getAttribute('href');
+            }
+        });
+    }
+});
 });
 
 
