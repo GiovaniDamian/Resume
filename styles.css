@@ -194,7 +194,7 @@ input:checked + .slider:before {
   padding-top: 4rem;
   background-color: #000;
   color: #000;
-  background: linear-gradient(var(--main-blue), rgba(176, 196, 222, 0.5)), url("https://plus.unsplash.com/premium_photo-1668473366952-45f06fbf6492?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzI1fHx0ZWNub2xvZ2lhJTIwYXp1bCUyMGNsYXJvfGVufDB8fDB8fHww");
+  background: linear-gradient(rgba(176, 196, 222, 0.5),var(--main-blue)), url("https://plus.unsplash.com/premium_photo-1668473366952-45f06fbf6492?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzI1fHx0ZWNub2xvZ2lhJTIwYXp1bCUyMGNsYXJvfGVufDB8fDB8fHww");
   background-size: 140rem;
 }
 
