@@ -247,6 +247,16 @@ input:checked + .slider:before {
   height: 3rem
 }
 
+@media screen and (max-width: 768px) {
+  .welcome-section h1 {
+    font-size: 7vw; /* Aumentando o tamanho da fonte para dispositivos menores */
+  }
+
+  .welcome-section p {
+    font-size: 5vw; /* Aumentando o tamanho da fonte para dispositivos menores */
+  }
+}
+
 /* Seção cursos */
 .courses {
   display: flex;
