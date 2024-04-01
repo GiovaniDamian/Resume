@@ -364,7 +364,7 @@ background-image:linear-gradient(50deg, #45567d 40%, #B0C4DE 100%);
 .project-image {
   height: 200px; /* ou qualquer outra altura desejada */
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px;
 }
 
