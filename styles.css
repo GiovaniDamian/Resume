@@ -502,64 +502,113 @@ footer i {
 }
 
 
-/* RABBIT */
-
-#general {
-  background-color:var(--main-blue-dark);
-  margin: auto;
-  position: relative;
-  height: 300px;
+.game-board {
+    width: 100%;
+    height: 400px;
+    border-bottom: 50px solid green;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#63c4eb, #E0F6FF)
 }
 
-
-#rabbit {
-  z-index:1000;
-  width: 100px;
-  height: 129px;
-  margin: auto;
-  position: absolute;
-  top: 60px;
-  left:40%;
-  background: url('https://www.joemaster.com.br/tutoriais/wp-content/uploads/2020/07/como-fazer-um-jogo-de-pular-obstaculos-e-pontuacao-com-html-css-e-javascript.png');
-  background-position-x: 0px;
-  background-position-y: 0px;
-  animation: play1 .8s steps(6) infinite;
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    animation: pipe-animations 1.5s infinite linear;
 }
 
-@keyframes play1 {
-    0% { background-position-x: -5px; }
-    100% { background-position-x: -548px; }
+.mario {
+    width: 130px;
+    position: absolute;
+    bottom: 0px;
 }
 
-
-#floor {
-  width: 100%;
-  height: 112px;
-  margin: auto;
-  position: absolute;
-  bottom: 0px;
-  border-top: 0.2rem solid var(--main-blue-light);
-  animation: play2 2s steps(10) infinite;
-  justify-content:  space-around;
+.jump {
+    animation: mario-animation 500ms ease-out;
 }
 
-@keyframes play2 {
-    100% { background-position-x: -112px; }
+.cloud {
+    width: 500px;
+    position: absolute;
+    animation: cloud 20s infinite linear;
 }
 
-.btn-move{
-  top:40%;
-  position: absolute;
-  font-size:20px;
-  background-color: #2c3e50;
-  color: #ffffff; 
-  text-align: center;
-  border: solid 1px var(--main-blue-light);
-  border-radius: 50%;
-  padding: 5px 15px;
-  cursor: pointer;
+.game-over {
+    visibility: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 57, 57, 0.363);
+    z-index: 1;
 }
 
-.btn-move:hover{
-  background-color:var(--main-blue-light);
+.restart {
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: var(--main-blue-light);
+    cursor: pointer;
+    position: absolute; 
+}
+
+@keyframes pipe-animations {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes mario-animation {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 120px
+    }
+
+    50% {
+        bottom: 120px;
+    }
+
+    60% {
+        bottom: 120px
+    }
+
+    100% {
+        bottom: 0px
+    }
+}
+
+@keyframes cloud {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%
+    }
+}
+
+@media (max-width: 620px) {
+    .mario {
+        width: 110px;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .pipe {
+        position: absolute;
+        bottom: 0;
+        width: 50px;
+        animation: pipe-animations 1s infinite linear;
+    }
 }
