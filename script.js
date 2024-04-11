@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const mario = document.querySelector('.mario');
     const pipe = document.querySelector('.pipe');
     const cloud = document.querySelector('.cloud');
-
+    const gameOver = document.querySelector('.game-over');
+    const restartButton = document.querySelector('.restart');
 
     toggleButton.addEventListener('click', function () {
         const elementsShow = document.querySelectorAll('[show]');
@@ -21,8 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
         );
     });
 
-    const gameOver = document.querySelector('.game-over');
-    const restartButton = document.querySelector('.restart');
 
     const jump = (e) => {
 
@@ -113,8 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }, 10);
     }
-    document.addEventListener('keydown', jump);
-    document.addEventListener('touchstart', jump);
-    restartButton.addEventListener('click', restart);
 
+    document.addEventListener('keydown', jump);
+    restartButton.addEventListener('click', restart);
 })
