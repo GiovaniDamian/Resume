@@ -381,13 +381,20 @@ background-image:linear-gradient(50deg, #45567d 40%, #B0C4DE 100%);
 }
 
 .btn-show-all {
-  font-size: 2rem;
-  background: var(--main-blue-dark);
-  transition: background 0.3s ease-out;
+    font-size: 2rem;
+    background: var(--main-blue-dark);
+    transition: background 0.3s ease-out;
+    border-radius: 10px;
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+    background: var(--main-blue);
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-color: var(--main-blue-dark);
+    text-decoration: underline;
+    text-decoration-color: var(--main-blue-dark);
 }
 
 .btn-show-all:hover > i {
@@ -461,11 +468,12 @@ footer i {
 }
 
 .button.dark {
-    --background: #242836;
+    --background: var(--main-blue-dark);
     --rectangle: #1C212E;
     --arrow: var(--main-blue);
     --text: var(--main-blue-light);
     --success: var(--main-blue-light);
+      border: 2px solid var(--main-blue);
 }
 
 .button {
