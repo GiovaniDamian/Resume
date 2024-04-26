@@ -15,6 +15,7 @@
 # IDE or editor files
 .idea/
 .vscode/
+.vs/
 
 # production
 /build
