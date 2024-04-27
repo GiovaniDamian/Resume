@@ -1,12 +1,12 @@
-import { url } from "inspector";
 import type { Config } from "tailwindcss";
+import { url } from "inspector";
 
 const config: Config = {
-    content: [
-        "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    ],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
     theme: {
         extend: {
             colors: {
@@ -23,11 +23,11 @@ const config: Config = {
                 "raleway": 'Raleway, sans-serif'
             },
             screens: {
-                "300": { 'min': '300px', 'max': '665px'},
-                "665": { 'max': '665px'}
+                "300": { 'min': '300px', 'max': '665px' },
+                "665": { 'max': '665px' }
             }
         },
     },
-    plugins: [],
+  plugins: [],
 };
 export default config;
