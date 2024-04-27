@@ -42,7 +42,7 @@ export default function Slider() {
         {projects.map((project, index) => (
           <motion.img
             key={project.id}
-            src={project.imgSrc}
+            src={`${process.env.PUBLIC_URL}/${project.imgSrc}`}
             alt={project.title}
             className={`rounded-[12px] absolute max-w-[400px] shadow-2xl hover:shadow-gray-900 hover:border-2 border-mainBlue ${project.id === 4 ? 'max-h-[300px]' : 'max-h-[400px]'}`}
             initial="center"
