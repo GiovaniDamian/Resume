@@ -1,7 +1,13 @@
-/** @type {import('next').NextConfig} */
+// next.config.mjs
 const nextConfig = {
-    output: 'export',
+  output: 'export',
   reactStrictMode: true,
+
+  exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
+    return {
+      '/': { page: '/' },
+    };
+  },
 };
 
 export default nextConfig;
