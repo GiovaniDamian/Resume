@@ -3,17 +3,25 @@ import { motion } from 'framer-motion';
 import useAppData from '../../data/hook/useAppData';
 import projectsData from '../../data/projects.json';
 
+interface Project {
+  id: number;
+  href: string;
+  title: string;
+  entitle: string;
+  imgSrc: string;
+}
+
 export default function Slider() {
   const { language } = useAppData();
-  const [activeImage, setActiveImage] = useState(0);
-  const [isMouseOver, setIsMouseOver] = useState(false);
+  const [activeImage, setActiveImage] = useState<number>(0);
+  const [isMouseOver, setIsMouseOver] = useState<boolean>(false);
 
   const clickImage = (index: number) => {
     setActiveImage(index);
   };
 
   const positions = ["center", "left1", "left", "right", "right1"];
-  const projects = projectsData;
+  const projects: Project[] = projectsData;
 
   const imageVariants = {
     center: { x: "0%", scale: 1, zIndex: 5 },
