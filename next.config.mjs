@@ -1,5 +1,6 @@
 // next.config.mjs
 const nextConfig = {
+  basePath: "/react",
   output: 'export',
   reactStrictMode: true,
 
