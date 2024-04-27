@@ -1,6 +1,6 @@
 // next.config.mjs
 const nextConfig = {
-  basePath,
+  basePathV: '/Resume',
   output: 'export',
   reactStrictMode: true,
 
