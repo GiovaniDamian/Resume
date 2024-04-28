@@ -94,7 +94,7 @@ export default function TemplatesWelcome() {
                     />
                 </div>
             </div>
-            <div className="grid grid-cols-4 m-3 p-2 ">
+            <div className="grid grid-cols-4 m-3 p-2 mt-6">
                 <div className="mr-8 self-start 300:absolute top-40 left-0 w-full">
                     <CardWelcome
                         key="skills"
