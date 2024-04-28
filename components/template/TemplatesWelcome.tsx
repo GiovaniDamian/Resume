@@ -94,8 +94,8 @@ export default function TemplatesWelcome() {
                     />
                 </div>
             </div>
-            <div className="grid grid-cols-4 m-8 p-6">
-                <div className="mr-6 self-start">
+            <div className="grid grid-cols-4 m-8 p-6 ">
+                <div className="mr-6 self-start 300:absolute top-40 left-0 w-full">
                     <CardWelcome
                         key="skills"
                         title="Habilidades"
@@ -116,7 +116,7 @@ export default function TemplatesWelcome() {
                         ]}
                         isVisible={showSkills}
                     />
-                    <div className="300:absolute top-40 left-0 w-full">
+                    <div className="300:absolute top-20 left-0 w-full mt-4">
                         <CardWelcome
                             key="languages"
                             title="Idiomas"
