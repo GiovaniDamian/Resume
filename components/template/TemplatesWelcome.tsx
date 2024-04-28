@@ -41,7 +41,7 @@ export default function TemplatesWelcome() {
                     </>
 
                 ]} />
-                <div className={`ml-24 justify-end w-full 300:container overscroll-contain w-full`} >
+                <div className={`ml-24 justify-end w-full 300:container overscroll-contain`} >
                     <CardWelcome
                         key="experience"
                         title="Experiência"
