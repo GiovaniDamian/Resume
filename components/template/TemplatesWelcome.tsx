@@ -94,8 +94,8 @@ export default function TemplatesWelcome() {
                     />
                 </div>
             </div>
-            <div className="grid grid-cols-4 m-8 p-6 ">
-                <div className="mr-6 self-start 300:absolute top-40 left-0 w-full">
+            <div className="grid grid-cols-4 m-3 p-2 ">
+                <div className="mr-8 self-start 300:absolute top-40 left-0 w-full">
                     <CardWelcome
                         key="skills"
                         title="Habilidades"
@@ -116,7 +116,7 @@ export default function TemplatesWelcome() {
                         ]}
                         isVisible={showSkills}
                     />
-                    <div className="300:absolute top-20 left-0 w-full mt-4">
+                    <div className="mr-8 300:absolute top-20 left-0 w-full mt-4">
                         <CardWelcome
                             key="languages"
                             title="Idiomas"
@@ -142,7 +142,7 @@ export default function TemplatesWelcome() {
                     </div>
                 </div>
 
-                <div className="justify-self-end w-full 300:mt-60">
+                <div className="justify-self-end w-3/4 300:mt-60">
                     <ButtonWelcome onClick={() => handleButtonClick('experience')} label={language == 'pt' ? "Experiência" : "Experience"} isActive={buttonClicked === 'experience'} />
 
                     <div className='ml-24'>
