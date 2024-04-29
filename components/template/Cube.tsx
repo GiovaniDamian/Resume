@@ -79,7 +79,7 @@ function BoxWithIcon({ icon }: BoxWithIconProps) {
             onPointerLeave={handlePointerLeave}
         >
             <boxGeometry args={[1, 1, 1]} />
-            {texture && <meshStandardMaterial attach="material" map={texture} />}
+            {texture && <meshStandardMaterial wireframe={!clicked} attach="material" map={texture} />}
         </mesh>
     );
 }

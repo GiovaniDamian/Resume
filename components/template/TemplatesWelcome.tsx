@@ -30,7 +30,7 @@ export default function TemplatesWelcome() {
     return (
         <>
             <div className="flex flex-row h-32">
-                <Section classNameItems="flex w-60 " classNameTop="mt-10" title="" enTitle="" items={[
+                <Section classNameItems="flex w-60 " classNameTop="mt-10" title="clique nos objetos da pagina:" enTitle="click on the objects on the page:" items={[
                     <>
                         <Cube icon={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"} />
                         <Cube icon={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg"} />
