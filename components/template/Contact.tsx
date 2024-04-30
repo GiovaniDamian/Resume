@@ -34,7 +34,7 @@ export default function Contact(props: any) {
                 </a>
             </div>
             <div>
-                <a href={language == 'pt' ? "https://drive.google.com/file/d/14mgiIGJbzTK8e9pjcm1apvIIVASTbj4S/view?usp=sharing" : "https://drive.google.com/file/d/1_rF3hjC6Md5uJnlTAhxas_oN6tX0pHkc/view?usp=sharing"} target="_blank">
+                <a href={language == 'pt' ? "https://drive.google.com/file/d/1vdTVk42pulD-965fd8grTKm5XU89KDKu/view?usp=sharing" : "https://drive.google.com/file/d/1qkYlgbS7di7WGquIgsuP-I2xYOXgXQVb/view?usp=sharing"} target="_blank">
                     <button className="bg-mainBlueDark font-bold h-24 w-36 mt-20 m-8 300:m-4 rounded-xl border-2 border-mainBlueLight underline shadow-xl shadow-blue-900  hover:text-mainBlueLight hover:border-4  hover:border-mainBlueLight">Dowload CV</button>
                     </a>
             </div>
