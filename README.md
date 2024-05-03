@@ -35,8 +35,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 * [JavaScript](https://github.com/documentationjs/documentation)
 * [TypeScript](https://www.typescriptlang.org/).
-* [Visual Studio]([http://www.dropwizard.io/1.0.2/docs/](https://visualstudio.microsoft.com/pt-br/))
-* [Next.js] (https://nextjs.org/docs).
+* [Visual Studio](https://visualstudio.microsoft.com/pt-br/).
+* [Next.js](https://nextjs.org/docs).
 * [React](https://react.dev/).
 * [Three.js](https://threejs.org/).
 * [Frame Motion](https://github.com/framer/motion)
