@@ -1,4 +1,4 @@
-#Resume
+# Resume
 
 Este é um projeto pessoal para disponibilização do meu currículo de forma online. Essa é a versão **2.0** feita em React e Next.js do projeto inicial, disponível em:
 
