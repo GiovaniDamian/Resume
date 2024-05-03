@@ -1,8 +1,11 @@
 # Resume
 
-Este é um projeto pessoal para disponibilização do meu currículo de forma online. Essa é a versão **2.0** feita em React e Next.js do projeto inicial, disponível em:
+Este é um projeto pessoal para disponibilização do meu currículo de forma online. Essa é a versão **2.0** feita em React e Next.js do projeto inicial:
 
 https://github.com/GiovaniDamian/Resume/tree/main
+
+E está disponível em:
+https://giovanidamian.github.io/Resume/
 
 ## 🔧 Getting Started
 
