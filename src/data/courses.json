@@ -1,0 +1,82 @@
+[
+  {
+    "id": 8,
+    "href": "https://www.udemy.com/course/nextjs-e-react/?couponCode=ST6MT42324",
+    "title": "Abr/2024:  Next.js e React",
+    "entitle": "Apr/2024:  Next.js e React",
+    "text": " Aplicações React profissionais com o Framework NextJS! Além de projetos com TailwindCSS, TypeScript e Firebase. Curso oferecido pela Udemy.",
+    "enText": "Professional React applications with the NextJS Framework! In addition to projects with TailwindCSS, TypeScript and Firebase. Course offered by Udemy.",
+    "duration": "Duração: 28h",
+    "enDuration": "Duration: 28h"
+  },
+  {
+    "id": 7,
+    "href": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+    "title": "Mar/2024: Algoritmos JavaScript e Estruturas de Dados",
+    "entitle": "Mar/2024: JavaScript Algorithms and Data Structures",
+    "text": "Fundamentos de JavaScript como variáveis, arrays, objetos, loops, funções, DOM e muito mais. Curso oferecido pela freeCodeCamp.",
+    "enText": "JavaScript fundamentals like variables, arrays, objects, loops, functions, the DOM and more. Course offered by freeCodeCamp.",
+    "duration": "Duração: 300h",
+    "enDuration": "Duration: 300h"
+  },
+  {
+    "id": 6,
+    "href": "https://learn.microsoft.com/pt-br/training/courses/az-900t00?wt.mc_id=studentamb_335523",
+    "title": "Fev/2024: Fundamentos do Microsoft Azure",
+    "entitle": "Feb/2024: Microsoft Azure Fundamentals",
+    "text": "Curso AZ-900: conceitos básicos do Microsoft Azure.",
+    "enText": "Course AZ-900: basic concepts of Microsoft Azure.",
+    "duration": "Duração: 24h",
+    "enDuration": "Duration: 24h"
+  },
+  {
+    "id": 5,
+    "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "title": "Nov/2023: Web Design Responsivo",
+    "entitle": "Nov/2023: : Responsive Web Desing",
+    "text": "Fundamentos de HTML e CSS avançados desde design responsivo, construção de uma variedade de projetos práticos até  aplicativos como de fotos, quizzes e layouts. Curso oferecido pelo freeCodeCamp.",
+    "enText": "Advanced HTML and CSS fundamentals from responsive design, building a variety of practical projects to applications such as photos, quizzes and layouts. Course offered by freeCodeCamp",
+    "duration": "Duração: 300h",
+    "enDuration": "Duration: 300h"
+  },
+  {
+    "id": 4,
+    "href": "https://desenvolvedor.io/curso-online-iniciando-com-asp-net-core",
+    "title": "Abr/2023: Iniciando com ASP Net Core",
+    "entitle": "Apr/2023: Starting with ASP Net Core",
+    "text": "Categoria: Desenvolvimento Web. Curso oferecido pela desenvolvedor.io.",
+    "enText": "Category:  Web development.Course offered by desenvolvedor.io.",
+    "duration": "Duração: 20h",
+    "enDuration": "Duration: 20h"
+  },
+  {
+    "id": 3,
+    "href": "https://www.alura.com.br/curso-online-dotnet-criando-web-api",
+    "title": "Fev/2023: API Rest com .Net 5",
+    "entitle": "Feb/2023: API Rest with .Net 5",
+    "text": "Requisições, verbos HTTP, padronização de retorno de informação, DTOs para requisições e respostas e DbContext. Curso oferecido pela Alura.",
+    "enText": "Requests, HTTP verbs, standardization of information return, DTOs for requests and responses and DbContext. Course offered byAlura.",
+    "duration": "Duração: 10h",
+    "enDuration": "Duration: 10h"
+  },
+  {
+    "id": 2,
+    "href": "https://www.udemy.com/course/curso-web/?couponCode=ACCAGE0923",
+    "title": "Ago/2022: Web Completo com JavaScript",
+    "entitle": "Aug/2022: Web with Java Script ",
+    "text": "Conceitos avançados em JS e fundamentais em  React, Vue e Angular 9. Capacitando a construir aplicações web modernas e completas, dominando tanto o frontend quanto o backend. Curso oferecido pela Udemy.",
+    "enText": "Advanced concepts in JS and fundamental concepts in React, Vue and Angular 9. Enabling you to build modern and complete web applications, mastering both the frontend and backend. Course offered by Udemy.",
+    "duration": "Duração: 98h",
+    "enDuration": "Duration: 98h"
+  },
+  {
+    "id": 1,
+    "href": "https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/?couponCode=ACCAGE0923",
+    "title": "Abr/2022: C# COMPLETO Programação Orientada a Objetos",
+    "entitle": "Apr/2022: : C # Object Oriented Programming",
+    "text": "Curso de Programação Orientada a Objetos em C#, criando soluções flexíveis e compreendendo diagramas de classe UML. Curso oferecido pela Udemy.",
+    "enText": "Object Oriented Programming Course in C#, creating flexible solutions and understanding UML class diagrams. Course offered by Udemy.",
+    "duration": "Duração: 38h",
+    "enDuration": "Duration: 38h"
+  }
+]
