@@ -2,10 +2,13 @@
 
 Este é um projeto pessoal para disponibilização do meu currículo de forma online. Essa é a versão **2.0** feita em React e Next.js do projeto inicial.
 
-##Versões
-1ª - https://github.com/GiovaniDamian/Resume/tree/main
-1.9 - (React.js + Next.js localmente) https://github.com/GiovaniDamian/Resume/tree/react-1.9
-2.0- (React.js + Next.js github.io) https://github.com/GiovaniDamian/Resume
+## Versões
+
+1.0 - https://github.com/GiovaniDamian/Resume/tree/main.
+
+1.9 - (React.js + Next.js localmente) https://github.com/GiovaniDamian/Resume/tree/react-1.9.
+
+2.0 - (React.js + Next.js github.io) https://github.com/GiovaniDamian/Resume.
 
 site:
 https://giovanidamian.github.io/Resume/
