@@ -48,7 +48,13 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 * [Frame Motion](https://github.com/framer/motion)
 * [Tailwind](https://tailwindcss.com/).
 
-
+## Screenshots
+<img height="260em" src="https://github.com/GiovaniDamian/Resume/assets/60575219/7ec72b80-5ae3-4481-b7d2-5e2e3cd851e6"/>
+<img height="260em" src="https://github.com/GiovaniDamian/Resume/assets/60575219/8dbff920-f775-4e1e-9d55-d23af9d7d685"/></br>
+<img height="260em" src="https://github.com/GiovaniDamian/Resume/assets/60575219/4bc31c2c-23a8-4ef4-9028-6c94bae09c14"/>
+<img height="260em" src="https://github.com/GiovaniDamian/Resume/assets/60575219/0738a4fa-37da-4d79-86cb-677fb49b2683"/></br>
+<img height="260em" src="https://github.com/GiovaniDamian/Resume/assets/60575219/cfcbcb84-65d2-4f43-b2f5-00ee0196bf23"/>
+<img height="260em" src="https://github.com/GiovaniDamian/Resume/assets/60575219/1f5fe6de-98df-4caa-a9b5-3af8201e0d84"/>
 
 ## Learn More
 
