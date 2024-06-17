@@ -1,6 +1,26 @@
 [
   {
     "id": 8,
+    "href": "https://awari.com.br/curso/front-end/",
+    "title": "Jun/2024: Programação Front-End",
+    "entitle": "Jun/2024: Front-end programming",
+    "text": "Domine React.js, a biblioteca líder de mercado para Front-End, desde os fundamentos em HTML, CSS e JavaScript até o uso de APIs e testes end-to-end, e desenvolva interfaces de sites e web apps eficientes e escaláveis.",
+    "enText": "Master React.js, the market-leading library for Front-End, from the fundamentals of HTML, CSS and JavaScript to the use of APIs and end-to-end testing, and develop efficient and scalable website interfaces and web apps.",
+    "duration": "Duração: 120h",
+    "enDuration": "Duration: 120h"
+  },
+  {
+    "id": 7,
+    "href": "https://www.udemy.com/course/learn-react-react-three-fiber-drei-react-spring-more",
+    "title": "Mai/2024: Three.js, React Three Fiber, Drei, React Spring & More",
+    "entitle": "May/2024: Three.js, React Three Fiber, Drei, React Spring & More",
+    "text": "O curso ensina como construir sites 3D imersivos e criativos usando Three.js e React.",
+    "enText": "The course teaches you how to build immersive and creative 3D websites using Three.js and React.",
+    "duration": "Duração: 12h",
+    "enDuration": "Duration: 12h"
+  },
+  {
+    "id": 6,
     "href": "https://www.udemy.com/course/nextjs-e-react/?couponCode=ST6MT42324",
     "title": "Abr/2024:  Next.js e React",
     "entitle": "Apr/2024:  Next.js e React",
@@ -10,7 +30,7 @@
     "enDuration": "Duration: 28h"
   },
   {
-    "id": 7,
+    "id": 5,
     "href": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
     "title": "Mar/2024: Algoritmos JavaScript e Estruturas de Dados",
     "entitle": "Mar/2024: JavaScript Algorithms and Data Structures",
@@ -20,7 +40,7 @@
     "enDuration": "Duration: 300h"
   },
   {
-    "id": 6,
+    "id": 4,
     "href": "https://learn.microsoft.com/pt-br/training/courses/az-900t00?wt.mc_id=studentamb_335523",
     "title": "Fev/2024: Fundamentos do Microsoft Azure",
     "entitle": "Feb/2024: Microsoft Azure Fundamentals",
@@ -30,7 +50,7 @@
     "enDuration": "Duration: 24h"
   },
   {
-    "id": 5,
+    "id": 3,
     "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
     "title": "Nov/2023: Web Design Responsivo",
     "entitle": "Nov/2023: : Responsive Web Desing",
@@ -38,26 +58,6 @@
     "enText": "Advanced HTML and CSS fundamentals from responsive design, building a variety of practical projects to applications such as photos, quizzes and layouts. Course offered by freeCodeCamp",
     "duration": "Duração: 300h",
     "enDuration": "Duration: 300h"
-  },
-  {
-    "id": 4,
-    "href": "https://desenvolvedor.io/curso-online-iniciando-com-asp-net-core",
-    "title": "Abr/2023: Iniciando com ASP Net Core",
-    "entitle": "Apr/2023: Starting with ASP Net Core",
-    "text": "Categoria: Desenvolvimento Web. Curso oferecido pela desenvolvedor.io.",
-    "enText": "Category:  Web development.Course offered by desenvolvedor.io.",
-    "duration": "Duração: 20h",
-    "enDuration": "Duration: 20h"
-  },
-  {
-    "id": 3,
-    "href": "https://www.alura.com.br/curso-online-dotnet-criando-web-api",
-    "title": "Fev/2023: API Rest com .Net 5",
-    "entitle": "Feb/2023: API Rest with .Net 5",
-    "text": "Requisições, verbos HTTP, padronização de retorno de informação, DTOs para requisições e respostas e DbContext. Curso oferecido pela Alura.",
-    "enText": "Requests, HTTP verbs, standardization of information return, DTOs for requests and responses and DbContext. Course offered byAlura.",
-    "duration": "Duração: 10h",
-    "enDuration": "Duration: 10h"
   },
   {
     "id": 2,
