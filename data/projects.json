@@ -1,24 +1,24 @@
 [
   {
     "id": 0,
+    "href": "https://github.com/GiovaniDamian/e-commerce",
+    "title": "3D_Ecommerce",
+    "entitle": "3D_Ecommerce",
+    "imgSrc": "./IoT_ecommerce.png"
+  },
+  {
+    "id": 1,
     "href": "https://github.com/GiovaniDamian/Mini-Game",
     "title": "Mini-Game",
     "entitle": "Mini-Game",
     "imgSrc": "./Mini-game.png"
   },
   {
-    "id": 1,
+    "id": 2,
     "href": "https://github.com/GiovaniDamian/PesquisaSatisfacao",
     "title": "Pesquisa de Satisfação",
     "entitle": "Satisfaction Survey",
     "imgSrc": "./Satisfaction Survey.png"
-  },
-  {
-    "id": 2,
-    "href": "https://github.com/GiovaniDamian/Galery",
-    "title": "Galeria",
-    "entitle": "Galery",
-    "imgSrc": "./Galery.png"
   },
   {
     "id": 3,
