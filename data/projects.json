@@ -4,7 +4,8 @@
     "href": "https://github.com/GiovaniDamian/e-commerce",
     "title": "3D_Ecommerce",
     "entitle": "3D_Ecommerce",
-    "imgSrc": "./IoT_ecommerce.png"
+    "imgSrc": "./IoT_ecommerce.png",
+    "link": "https://nextjs-commerce-alpha-sable.vercel.app/"
   },
   {
     "id": 1,
