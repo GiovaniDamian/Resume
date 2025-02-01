@@ -10,7 +10,7 @@ interface AppContextProps {
 const AppContext = createContext<AppContextProps>({})
 
 export function AppProvider(props: any) {
-    const [language, setLanguage] = useState('pt')
+    const [language, setLanguage] = useState('en')
 
     function changeLanguage() {
         const newLangague = language === 'pt' ? 'en' : 'pt'
@@ -19,7 +19,7 @@ export function AppProvider(props: any) {
     }
 
     useEffect(() => {
-        const languageSave = localStorage.getItem('language') ?? 'pt'
+        const languageSave = localStorage.getItem('language') ?? 'en'
         setLanguage(languageSave)
     }, [])
 
