@@ -1,0 +1,23 @@
+{
+  "about": "Over mij",
+  "courses": "Cursussen",
+  "projects": "Projecten",
+  "contact": "Contacten",
+  "welcome.name": "GIOVANI DAMIAN SANTOS",
+  "welcome.role": "ONTWIKKELAAR EN SOFTWARESPECIALIST",
+  "section.title": "klik op elk object van deze pagina:",
+  "button.experience": "Ervaring",
+  "button.skills": "Vaardigheden",
+  "button.education": "Opleiding",
+  "card.experience.title": "Ervaring",
+  "card.skills.title": "Vaardigheden",
+  "card.education.title": "Opleiding",
+  "card.languages.title": "Talen",
+  "card.skills.text.1": "Communicatie op verschillende niveaus;",
+  "card.skills.text.2": "Logica, wiskunde, dynamiek en organisatie;",
+  "card.skills.text.3": "Proactiviteit, vastberadenheid en ethiek.",
+  "card.languages.portuguese": "Portugees: Moedertaal",
+  "card.languages.english": "Engels: Gevorderd",
+  "card.languages.italian": "Italiaans: Gemiddeld (niveau vier)",
+  "card.languages.spanish": "Spaans: Beginner"
+}

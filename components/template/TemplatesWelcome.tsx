@@ -5,6 +5,7 @@ import Section from "./Section";
 import Cube from "./Cube";
 import useAppData from "../../data/hook/useAppData";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { useTranslation } from "react-i18next";
 
 export default function TemplatesWelcome() {
   const [showSkills, setShowSkills] = useState(false);
@@ -12,7 +13,7 @@ export default function TemplatesWelcome() {
   const [showEducation, setShowEducation] = useState(false);
   const [buttonClicked, setButtonClicked] = useState("");
   const { language } = useAppData();
-
+  const { t } = useTranslation();
   const handleButtonClick = (section: string) => {
     if (buttonClicked === section) {
       setButtonClicked("");
