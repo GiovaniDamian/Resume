@@ -5,7 +5,7 @@ import Section from "./Section";
 import Cube from "./Cube";
 import useAppData from "../../data/hook/useAppData";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
-import { useTranslation } from "react-i18next";
+import t from "../../data/i18n/translations";
 
 export default function TemplatesWelcome() {
   const [showSkills, setShowSkills] = useState(false);
@@ -13,7 +13,6 @@ export default function TemplatesWelcome() {
   const [showEducation, setShowEducation] = useState(false);
   const [buttonClicked, setButtonClicked] = useState("");
   const { language } = useAppData();
-  const { t } = useTranslation();
   const handleButtonClick = (section: string) => {
     if (buttonClicked === section) {
       setButtonClicked("");
@@ -33,8 +32,6 @@ export default function TemplatesWelcome() {
         <Section
           classNameItems="flex w-60 "
           classNameTop="mt-10"
-          title="clique nos objetos da pagina:"
-          enTitle="click on each of object of this page:"
           items={[
             <>
               <Cube
@@ -75,110 +72,39 @@ export default function TemplatesWelcome() {
         >
           <CardWelcome
             key="experience"
-            title="Experiência"
-            enTitle="Experience"
+            title={t("card.experience.title", language)}
             content={[
               <div key={`experience0`} className="flex">
                 <article className="w-2/3 border-r-2 mr-4 flex flex-col">
-                  <h4 className="underline font-bold mb-2">
-                    DESENVOLVEDOR FULL STACK JR • MULTILOG • 03/23 – 10/23
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.1.title", language)}
                   </h4>
-                  <p>
-                    Desenvolvimento e sustentação de sistemas. Atuação em equipe
-                    ágil, metodologia SCRUM, MicroServiços e amplo
-                    desenvolvimento de sistemas para clientes internos e
-                    externos da organização.
-                  </p>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.1.item.1", language)} </li>
+                    <li>{t("experience.1.item.2", language)} </li>
+                    <li>{t("experience.1.item.3", language)} </li>
+                  </ul>
                 </article>
 
                 <article className="border-r-2 w-1/2 flex flex-col">
-                  <h4 className="underline font-bold mb-2">
-                    TRAINEE FULL STACK • FAPESC • 03/22 – 03/23
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.2.title", language)}
                   </h4>
-                  <p>
-                    Desenvolvimento de soluções e novos recursos para
-                    automatizar processos logísticos utilizando diversas
-                    linguagens de programação.
-                  </p>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.2.item.1", language)} </li>
+                    <li>{t("experience.2.item.2", language)} </li>
+                    <li>{t("experience.2.item.3", language)} </li>
+                  </ul>
                 </article>
 
                 <article className="ml-4 flex flex-col">
-                  <h4 className="underline font-bold mb-2">
-                    SUPERVISOR ADMINISTRATIVO • PANFACIL ALIMENTOS S/A • 09/15 –
-                    05/19
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.3.title", language)}
                   </h4>
                   <ul className="list-disc list-inside">
-                    <li>
-                      Gestão operacional e funções administrativas na área
-                      comercial;
-                    </li>
-                    <li>Negociações com fornecedores e clientes;</li>
-                    <li>Controle de pedidos,entregas, estoque e veículos.</li>
-                  </ul>
-                </article>
-              </div>,
-            ]}
-            enContent={[
-              <div key={`experience1`} className="flex flex column">
-                <article className="w-2/3 border-r-2 mr-4">
-                  <h4 className="underline font-bold">
-                    FULL STACK DEVELOPER • NOSTRADAMUS • 08/24 – CURRENT
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li className="">
-                      Developing SaaS solutions to optimize costs, time, and
-                      control in the supply chain.
-                    </li>
-                    <li>
-                      Performs maintenance and improvements on company and
-                      client systems and processes.
-                    </li>
-                    <li>
-                      Helping companies simplify and streamline logistics
-                      processes, reduce operational time, and gain valuable
-                      insights for decision-making.
-                    </li>
-                  </ul>
-                </article>
-
-                <article className="pr-2 border-r-2 w-1/2">
-                  <h4 className="underline font-bold">
-                    FULL STACK DEVELOPER • MULTILOG • 03/22 – 10/23
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>
-                      Develop web applications for import and export operations,
-                      including customs controls in collaboration with the
-                      Federal Revenue Service.
-                    </li>
-                    <li>
-                      Work on multi-layered systems using various architectures
-                      within a microservices context to enhance performance and
-                      provide faster, customized solutions for clients.
-                    </li>
-                    <li>
-                      Collaborate with a multidisciplinary software development
-                      team using agile methodology and best practices for
-                      deployment and delivery.
-                    </li>
-                  </ul>
-                </article>
-
-                <article className="ml-2">
-                  <h4 className="underline font-bold">
-                    ADMINISTRATIVE SUPERVISOR • PANFACIL ALIMENTOS S/A • 09/15 –
-                    05/19
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>
-                      Managing functions in the operational area and
-                      administrative functions in the commercial area;
-                    </li>
-                    <li>Negotiations with suppliers and customers;</li>
-                    <li>
-                      Control of orders and Administration of resources,
-                      equipment, vehicles and structures.
-                    </li>
+                    <li>{t("experience.3.item.1", language)} </li>
+                    <li>{t("experience.3.item.2", language)} </li>
+                    <li>{t("experience.3.item.3", language)} </li>
                   </ul>
                 </article>
               </div>,
@@ -191,30 +117,12 @@ export default function TemplatesWelcome() {
         <div className="mr-8 self-start 300:absolute top-40 left-0 w-full">
           <CardWelcome
             key="skills"
-            title="Habilidades"
-            enTitle="Skills"
+            title={t("card.skills.title", language)}
             content={[
               <div key={`skills0`}>
-                <p>Comunicação em diversos níveis;</p>
-                <p>Lógica, matemática, dinamismo e organização;</p>
-                <p>Proatividade, determinação e ética.</p>
-              </div>,
-            ]}
-            enContent={[
-              <div key={`skills1`}>
-                <p>Logic, mathematics, dynamism, and organization;</p>
-                <p>Proactivity, determination, and ethics.</p>
-                <br />
-                <p>
-                  <strong>Digital Skills: </strong>
-                </p>
-                <p>
-                  C# | Node.Js | React.Js | Asp.Net Core (Entity Framework and
-                  MS SQL) | Database: Oracle, Microsoft SqlServer, MySql |
-                  Bootstrap and Tailwind | SQL | Azure | Object-Oriented
-                  Programming | Database Design & Programming | JavaScript |
-                  HTML | Git | CSS ...
-                </p>
+                <p>{t("card.skills.text.1", language)}</p>
+                <p>{t("card.skills.text.2", language)}</p>
+                <p>{t("card.skills.text.3", language)}</p>
               </div>,
             ]}
             isVisible={showSkills}
@@ -222,38 +130,24 @@ export default function TemplatesWelcome() {
           <div className="mr-8 300:absolute top-20 left-0 w-full mt-4">
             <CardWelcome
               key="languages"
-              title="Idiomas"
-              enTitle="Languages"
+              title={t("card.languages.title", language)}
               content={[
                 <div key={`languages0`}>
                   <p>
-                    <span className="fi fi-br"></span> Português: Nativo
+                    <span className="fi fi-br"></span>{" "}
+                    {t("card.languages.portuguese", language)}
                   </p>
                   <p>
-                    <span className="fi fi-us"></span> Inglês: Avançado
+                    <span className="fi fi-us"></span>
+                    {t("card.languages.english", language)}
                   </p>
                   <p>
-                    <span className="fi fi-it"></span> Italiano: Intermediário
-                    (quarto nível)
+                    <span className="fi fi-it"></span>{" "}
+                    {t("card.languages.italian", language)}
                   </p>
                   <p>
-                    <span className="fi fi-es"></span> Espanhol: Iniciante
-                  </p>
-                </div>,
-              ]}
-              enContent={[
-                <div key={`languages1`}>
-                  <p>
-                    <span className="fi fi-br"></span> Portuguese: Advanced
-                  </p>
-                  <p>
-                    <span className="fi fi-us"></span> English: Advanced
-                  </p>
-                  <p>
-                    <span className="fi fi-it"></span> Italian: Intermediate
-                  </p>
-                  <p>
-                    <span className="fi fi-es"></span> Spanish: Beginner
+                    <span className="fi fi-es"></span>{" "}
+                    {t("card.languages.spanish", language)}
                   </p>
                 </div>,
               ]}
@@ -265,20 +159,20 @@ export default function TemplatesWelcome() {
         <div className="justify-self-end w-3/4 300:mt-60">
           <ButtonWelcome
             onClick={() => handleButtonClick("experience")}
-            label={language == "pt" ? "Experiência" : "Experience"}
+            label={t("button.experience", language)}
             isActive={buttonClicked === "experience"}
           />
 
           <div className="ml-24">
             <ButtonWelcome
               onClick={() => handleButtonClick("education")}
-              label={language == "pt" ? "Educação" : "Education"}
+              label={t("button.education", language)}
               isActive={buttonClicked === "education"}
             />
           </div>
           <ButtonWelcome
             onClick={() => handleButtonClick("skills")}
-            label={language == "pt" ? "Habilidades" : "Skills"}
+            label={t("button.skills", language)}
             isActive={buttonClicked === "skills"}
           />
         </div>
@@ -286,97 +180,48 @@ export default function TemplatesWelcome() {
         <div className="col-span-2 p-2">
           <CardWelcome
             key="education"
-            title="Educação"
-            enTitle="Education"
+            title={t("card.education.title", language)}
             content={[
               <div key={`education0`} className="p-1">
                 <article className="mb-2 pb-2 border-b-2">
                   <h4 className="underline font-bold">
-                    ESPECIALIZAÇÃO EM INFRAESTRUTURA DE SOFTWARES • 2021 •
-                    UNIVERSIDAD EUROPEA DEL ATLÂNTICO
+                    {t("education.1.title", language)}
+                  </h4>
+                  <p style={{ margin: "2px 0px" }}>
+                    <strong>Front-End: </strong>
+                    {t("education.1.item.1", language)}
+                  </p>
+                  <p>
+                    <strong>Back-End: </strong>
+                    {t("education.1.item.2", language)}
+                  </p>
+                </article>
+
+                <article className="mb-2 pb-2 border-b-2">
+                  <h4 className="underline font-bold">
+                    {t("education.2.title", language)}
                   </h4>
                   <p>
-                    Arquiteturas, redes e sistemas distribuídos; segurança e
-                    gerenciamento de rede; gerenciamento de banco de dados e
-                    recursos de informação; linguagens e paradigmas de
-                    programação; tecnologia web e engenharia web(380 hrs).
+                    {t("education.2.description", language)}{" "}
+                    <strong>{t("education.2.note", language)}</strong>
                   </p>
-                  <p>Atividades complementares:</p>
+                  <p>{t("education.2.activities", language)}</p>
                   <ul className="list-disc list-inside">
-                    <li>Cursos onlines Complementares;</li>
-                    <li>Projetos de Designer Web e Database;</li>
-                    <li>Website</li>
-                    <li>Participação em TDC’s -2022/2023/2024</li>
+                    <li>{t("education.2.item.1", language)}</li>
+                    <li>{t("education.2.item.2", language)}</li>
+                    <li>{t("education.2.item.3", language)}</li>
+                    <li>{t("education.2.item.4", language)}</li>
                   </ul>
                 </article>
 
                 <article>
                   <h4 className="underline font-bold">
-                    ADMINISTRAÇÃO DE EMPRESAS • 2018 • UNIVERSIDADE DO ESTADO DE
-                    SANTA CATARINA
+                    {t("education.3.title", language)}
                   </h4>
                   <ul className="list-disc list-inside">
-                    <li>Graduação (3600 horas);</li>
-                    <li>Projetos sociais;</li>
-                    <li>
-                      Participações nos eventos: Exposuper, Expoagas e Agile
-                      Challenges.
-                    </li>
-                  </ul>
-                </article>
-              </div>,
-            ]}
-            enContent={[
-              <div key={`education1`} className="p-1">
-                <article className="mb-2 pb-2 border-b-2">
-                  <h4 className="underline font-bold">
-                    FULL STACK DEVELOPER•2025 • AWARI
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>
-                      <strong>Front-End</strong> - Git and Versioning, Web
-                      Technologies, JavaScript Programming, React.js,
-                      Structuring React.js, Apps, Good Practices,Consuming APIs,
-                      React.js Advanced Concepts, Unit Tests,End-to-End Testing
-                      Software, Documentation, Optimization and SEO.
-                    </li>
-                    <li>
-                      <strong>Back-End</strong> - Main concepts, Node.js,
-                      Fundamentals, Good Practices, Database, MongoDB, Node.js
-                      Advanced Concepts, Design Patterns, Buffers and Streams,
-                      Testes.
-                    </li>
-                  </ul>
-                  <p></p>
-                </article>
-                <article className="mb-2 pb-2 border-b-2">
-                  <h4 className="underline font-bold">
-                    SPECIALIZATION IN TECHNOLOGICAL SOFTWARE INFRASTRUCTURE•2021
-                    • UNIVERSIDAD EUROPEA DEL ATLÂNTICO
-                  </h4>
-                  <p>
-                    Architectures, networks and distributed systems; network
-                    security and management; database management and information
-                    resources; programming languages and paradigms; web
-                    technology and web engineering.
-                  </p>
-                  <p>Additional activities:</p>
-                  <ul className="list-disc list-inside">
-                    <li>Online courses </li>
-                    <li>Project web page design and Database;</li>
-                    <li>Website and Database design;</li>
-                    <li>Participation in the TDC 2022/2023/2024.</li>
-                  </ul>
-                </article>
-                <article>
-                  <h4 className="underline font-bold">
-                    BUSINESS ADMINISTRATION • 2018 • UNIVERSIDADE DO ESTADO DE
-                    SANTA CATARINA
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>University Degree (3600 hrs);</li>
-                    <li>Social projects;</li>
-                    <li>Exposuper, Expoagas and Agile Challenges.</li>
+                    <li>{t("education.3.item.1", language)}</li>
+                    <li>{t("education.3.item.2", language)}</li>
+                    <li>{t("education.3.item.3", language)}</li>
                   </ul>
                 </article>
               </div>,

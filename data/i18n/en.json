@@ -3,12 +3,16 @@
   "courses": "Courses",
   "projects": "Projects",
   "contact": "Contacts",
+
   "welcome.name": "GIOVANI DAMIAN SANTOS",
   "welcome.role": "DEVELOPER AND SOFTWARE SPECIALIST",
+
   "section.title": "click on each object of this page:",
+
   "button.experience": "Experience",
   "button.skills": "Skills",
   "button.education": "Education",
+
   "card.experience.title": "Experience",
   "card.skills.title": "Skills",
   "card.education.title": "Education",
@@ -19,5 +23,38 @@
   "card.languages.portuguese": "Portuguese: Native",
   "card.languages.english": "English: Advanced",
   "card.languages.italian": "Italian: Intermediate (level four)",
-  "card.languages.spanish": "Spanish: Beginner"
+  "card.languages.spanish": "Spanish: Beginner",
+
+  "experience.1.title": "FULL STACK DEVELOPER • NOSTRADAMUS • 08/24 – CURRENT (1 year)",
+  "experience.1.item.1": "Developing SaaS solutions to optimize costs, time, and control in the supply chain.",
+  "experience.1.item.2": "Maintains and improves company and client systems and processes.",
+  "experience.1.item.3": "Helps companies simplify and streamline logistics, reduce time, and gain insights for decision-making.",
+
+  "experience.2.title": "FULL STACK DEVELOPER • MULTILOG / FAPESC • 03/22 – 10/23 (1 year and 7 months)",
+  "experience.2.item.1": "Develop web applications for import/export operations, including customs controls with the Federal Revenue Service.",
+  "experience.2.item.2": "Work on multi-layered systems using microservices to enhance performance and deliver custom solutions.",
+  "experience.2.item.3": "Collaborate with a multidisciplinary development team using agile methodology and deployment best practices.",
+
+  "experience.3.title": "ADMINISTRATIVE SUPERVISOR • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 years and 8 months)",
+  "experience.3.item.1": "Operational and administrative management in the commercial area;",
+  "experience.3.item.2": "Negotiations with suppliers and customers;",
+  "experience.3.item.3": "Control of orders, deliveries, inventory, and vehicles.",
+
+  "education.1.title": "FULL STACK DEVELOPER • 2025 • AWARI",
+  "education.1.item.1": "Front-End - Git and Versioning, Web Technologies, JavaScript Programming, React.js, Structuring React.js Apps, Best Practices, Consuming APIs, Advanced React.js Concepts, Unit Tests, End-to-End Testing, Software Documentation, Optimization and SEO.",
+  "education.1.item.2": "Back-End - Core Concepts, Node.js Fundamentals, Best Practices, Databases, MongoDB, Advanced Node.js Concepts, Design Patterns, Buffers and Streams, Testing.",
+
+  "education.2.title": "SPECIALIZATION IN TECHNOLOGICAL SOFTWARE INFRASTRUCTURE • 2021 • UNIVERSIDAD EUROPEA DEL ATLÂNTICO",
+  "education.2.description": "Architectures, networks and distributed systems; network security and management; database management and information resources; programming languages and paradigms; web technology and web engineering.",
+  "education.2.note": "Total duration: 380 hours.",
+  "education.2.activities": "Additional activities:",
+  "education.2.item.1": "Online courses;",
+  "education.2.item.2": "Project web page design and Database;",
+  "education.2.item.3": "Website;",
+  "education.2.item.4": "Participation in the TDC 2022/2023/2024.",
+
+  "education.3.title": "BUSINESS ADMINISTRATION • 2018 • UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
+  "education.3.item.1": "University Degree (3600 hours);",
+  "education.3.item.2": "Social projects;",
+  "education.3.item.3": "Participation in Exposuper, Expoagas, and Agile Challenges."
 }

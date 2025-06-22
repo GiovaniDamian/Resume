@@ -3,13 +3,16 @@
   "courses": "Cursos",
   "projects": "Projetos",
   "contact": "Contatos",
+
   "welcome.name": "GIOVANI DAMIAN SANTOS",
   "welcome.role": "DESENVOLVEDOR E ESPECIALISTA EM SOFTWARES",
+
   "section.title": "clique nos objetos da pagina:",
-  "section.title.en": "click on each of object of this page:",
+
   "button.experience": "Experiência",
   "button.skills": "Habilidades",
   "button.education": "Educação",
+
   "card.experience.title": "Experiência",
   "card.skills.title": "Habilidades",
   "card.education.title": "Educação",
@@ -20,5 +23,38 @@
   "card.languages.portuguese": "Português: Nativo",
   "card.languages.english": "Inglês: Avançado",
   "card.languages.italian": "Italiano: Intermediário (quarto nível)",
-  "card.languages.spanish": "Espanhol: Iniciante"
+  "card.languages.spanish": "Espanhol: Iniciante",
+
+  "experience.1.title": "DESENVOLVEDOR FULL STACK • NOSTRADAMUS • 08/24 – ATUAL (1 ano)",
+  "experience.1.item.1": "Desenvolvendo soluções SaaS para otimizar custos, tempo e controle na cadeia de suprimentos.",
+  "experience.1.item.2": "Realiza manutenção e melhorias em sistemas e processos da empresa/clientes.",
+  "experience.1.item.3": "Ajuda empresas a simplificar e agilizar processos logísticos, reduzir tempo operacional e obter insights valiosos para decisões.",
+
+  "experience.2.title": "DESENVOLVEDOR FULL STACK • MULTILOG / FAPESC • 03/22 – 10/23 (1 ano e 7 meses)",
+  "experience.2.item.1": "Desenvolver aplicações web para operações de importação e exportação, incluindo controles aduaneiros em colaboração com a Receita Federal.",
+  "experience.2.item.2": "Trabalhar com sistemas multicamadas usando várias arquiteturas dentro de um contexto de microsserviços para melhorar o desempenho e fornecer soluções rápidas e personalizadas.",
+  "experience.2.item.3": "Colaborar com equipe multidisciplinar de desenvolvimento utilizando metodologia ágil e boas práticas de entrega e implantação.",
+
+  "experience.3.title": "SUPERVISOR ADMINISTRATIVO • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 anos e 8 meses)",
+  "experience.3.item.1": "Gestão operacional e funções administrativas na área comercial;",
+  "experience.3.item.2": "Negociações com fornecedores e clientes;",
+  "experience.3.item.3": "Controle de pedidos, entregas, estoque e veículos.",
+
+  "education.1.title": "FULL STACK DEVELOPER • 2025 • AWARI",
+  "education.1.item.1": "Git e versionamento, Tecnologias Web, Programação JavaScript, React.js, Estruturação de Apps em React.js, Boas Práticas, Consumo de APIs, Conceitos Avançados de React.js, Testes Unitários, Testes de ponta-a-ponta, Documentação de Software, Otimização e SEO.",
+  "education.1.item.2": "Conceitos principais, Fundamentos do Node.js, Boas Práticas, Banco de Dados, MongoDB, Conceitos Avançados de Node.js, Design Patterns, Buffers e Streams, Testes.",
+
+  "education.2.title": "ESPECIALIZAÇÃO EM INFRAESTRUTURA DE SOFTWARES • 2021 • UNIVERSIDAD EUROPEA DEL ATLÂNTICO",
+  "education.2.description": "Arquiteturas, redes e sistemas distribuídos; segurança e gerenciamento de rede; gerenciamento de banco de dados e recursos de informação; linguagens e paradigmas de programação; tecnologia web e engenharia web.",
+  "education.2.note": "Carga horária: 380 horas.",
+  "education.2.activities": "Atividades complementares:",
+  "education.2.item.1": "Cursos online complementares;",
+  "education.2.item.2": "Projetos de Designer Web e Database;",
+  "education.2.item.3": "Website;",
+  "education.2.item.4": "Participação em TDC’s - 2022/2023/2024",
+
+  "education.3.title": "ADMINISTRAÇÃO DE EMPRESAS • 2018 • UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
+  "education.3.item.1": "Graduação (3600 horas);",
+  "education.3.item.2": "Projetos sociais;",
+  "education.3.item.3": "Participações nos eventos: Exposuper, Expoagas e Agile Challenges."
 }
