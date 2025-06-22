@@ -8,9 +8,12 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import t from "../../data/i18n/translations";
 
 export default function Contact(props: any) {
   const { language } = useAppData();
+  const whatsApp = t("contact.whatsapp", language);
+  const cvLink = t("contact.cvLink", language);
 
   return (
     <>
@@ -19,13 +22,9 @@ export default function Contact(props: any) {
         className="bg-mainBlueDark flex flex-col justify-center content-center text-center text-mainBlueLight h-full p-4"
       >
         <h1 className="text-5xl font-extrabold mt-12 m-8 font-raleway ">
-          {language == "pt"
-            ? "Vamos trabalhar juntos?"
-            : "Let's work together?"}
+          {t("contact.title", language)}
         </h1>
-        <h2 className="italic text-xl ">
-          {language == "pt" ? "Entre em contato:" : "Get in touch:"}
-        </h2>
+        <h2 className="italic text-xl ">{t("contact.subtitle", language)}</h2>
 
         <div className="flex h-full justify-center content-center text-center mt-8 ">
           <a
@@ -43,7 +42,7 @@ export default function Contact(props: any) {
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
           <a
-            href="https://wa.me/5548991503304"
+            href={whatsApp}
             target="_blank"
             className="p-4 hover:translate-y-6"
           >
@@ -65,16 +64,9 @@ export default function Contact(props: any) {
           </a>
         </div>
         <div>
-          <a
-            href={
-              language == "pt"
-                ? "https://drive.google.com/file/d/1EmCdejd9a3DqsICcWlLAZHmp0OC106ta/view?usp=drive_link"
-                : "https://drive.google.com/file/d/1vXndGcBLuqsYyogQgB-oUQfUSkgOJtde/view?usp=sharing"
-            }
-            target="_blank"
-          >
+          <a href={cvLink} target="_blank">
             <button className="bg-mainBlueDark font-bold h-24 w-36 mt-20 m-8 300:m-4 rounded-xl border-2 border-mainBlueLight underline shadow-xl shadow-blue-900  hover:text-mainBlueLight hover:border-4  hover:border-mainBlueLight">
-              Dowload CV
+              {t("contact.downloadButton", language)}
             </button>
           </a>
         </div>

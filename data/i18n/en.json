@@ -56,5 +56,54 @@
   "education.3.title": "BUSINESS ADMINISTRATION • 2018 • UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
   "education.3.item.1": "University Degree (3600 hours);",
   "education.3.item.2": "Social projects;",
-  "education.3.item.3": "Participation in Exposuper, Expoagas, and Agile Challenges."
+  "education.3.item.3": "Participation in Exposuper, Expoagas, and Agile Challenges.",
+
+  "courses.sectionTitle": "Last Courses",
+
+  "courses.8.title": "Jun/2024: Front-end programming",
+  "courses.8.description": "Master React.js, the market-leading library for Front-End, from the fundamentals of HTML, CSS and JavaScript to the use of APIs and end-to-end testing, and develop efficient and scalable website interfaces and web apps.",
+  "courses.8.duration": "Duration: 120h",
+
+  "courses.7.title": "May/2024: Three.js, React Three Fiber, Drei, React Spring & More",
+  "courses.7.description": "The course teaches you how to build immersive and creative 3D websites using Three.js and React.",
+  "courses.7.duration": "Duration: 12h",
+
+  "courses.6.title": "Apr/2024: Next.js and React",
+  "courses.6.description": "Professional React applications with the NextJS Framework! In addition to projects with TailwindCSS, TypeScript and Firebase. Course offered by Udemy.",
+  "courses.6.duration": "Duration: 28h",
+
+  "courses.5.title": "Mar/2024: JavaScript Algorithms and Data Structures",
+  "courses.5.description": "JavaScript fundamentals like variables, arrays, objects, loops, functions, the DOM and more. Course offered by freeCodeCamp.",
+  "courses.5.duration": "Duration: 300h",
+
+  "courses.4.title": "Feb/2024: Microsoft Azure Fundamentals",
+  "courses.4.description": "Course AZ-900: basic concepts of Microsoft Azure.",
+  "courses.4.duration": "Duration: 24h",
+
+  "courses.3.title": "Nov/2023: Responsive Web Design",
+  "courses.3.description": "Advanced HTML and CSS fundamentals from responsive design, building a variety of practical projects to applications such as photos, quizzes and layouts. Course offered by freeCodeCamp.",
+  "courses.3.duration": "Duration: 300h",
+
+  "courses.2.title": "Aug/2022: Complete Web with JavaScript",
+  "courses.2.description": "Advanced concepts in JS and fundamental concepts in React, Vue and Angular 9. Enabling you to build modern and complete web applications, mastering both the frontend and backend. Course offered by Udemy.",
+  "courses.2.duration": "Duration: 98h",
+
+  "courses.1.title": "Apr/2022: C# COMPLETE Object Oriented Programming",
+  "courses.1.description": "Object Oriented Programming Course in C#, creating flexible solutions and understanding UML class diagrams. Course offered by Udemy.",
+  "courses.1.duration": "Duration: 38h",
+
+  "projects.sectionTitle": "Projects",
+  "projects.visitButton": "Visit",
+
+  "projects.0.title": "3D_Ecommerce",
+  "projects.1.title": "Mini-Game",
+  "projects.2.title": "Satisfaction Survey",
+  "projects.3.title": "Classes Platform",
+  "projects.4.title": "Discord By React",
+
+  "contact.title": "Let's work together?",
+  "contact.subtitle": "Get in touch:",
+  "contact.downloadButton": "Download CV",
+  "contact.whatsapp": "https://wa.me/31684543297",
+  "contact.cvLink": "https://drive.google.com/file/d/1ASbJ_18j95zidjmQnds0bK9hY-ZQyEci/view?usp=sharing"
 }

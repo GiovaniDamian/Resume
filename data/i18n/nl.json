@@ -56,5 +56,54 @@
   "education.3.title": "BEDRIJFSADMINISTRATIE • 2018 • UNIVERSITEIT VAN DE STAAT SANTA CATARINA",
   "education.3.item.1": "Universitair diploma (3600 uur);",
   "education.3.item.2": "Sociale projecten;",
-  "education.3.item.3": "Deelname aan Exposuper, Expoagas en Agile Challenges."
+  "education.3.item.3": "Deelname aan Exposuper, Expoagas en Agile Challenges.",
+
+  "courses.sectionTitle": "Laatste Voltooide Cursussen",
+  
+  "courses.8.title": "Jun/2024: Front-End programmeren",
+  "courses.8.description": "Beheers React.js, de marktleidende bibliotheek voor Front-End, van de basis in HTML, CSS en JavaScript tot het gebruik van API's en end-to-end testen, en ontwikkel efficiënte en schaalbare website-interfaces en webapps.",
+  "courses.8.duration": "Duur: 120 uur",
+
+  "courses.7.title": "Mei/2024: Three.js, React Three Fiber, Drei, React Spring & Meer",
+  "courses.7.description": "De cursus leert je hoe je meeslepende en creatieve 3D-websites bouwt met Three.js en React.",
+  "courses.7.duration": "Duur: 12 uur",
+
+  "courses.6.title": "Apr/2024: Next.js en React",
+  "courses.6.description": "Professionele React-toepassingen met het NextJS-framework! Inclusief projecten met TailwindCSS, TypeScript en Firebase. Cursus aangeboden door Udemy.",
+  "courses.6.duration": "Duur: 28 uur",
+
+  "courses.5.title": "Mrt/2024: JavaScript-algoritmen en datastructuren",
+  "courses.5.description": "Basisprincipes van JavaScript zoals variabelen, arrays, objecten, lussen, functies, de DOM en meer. Cursus aangeboden door freeCodeCamp.",
+  "courses.5.duration": "Duur: 300 uur",
+
+  "courses.4.title": "Feb/2024: Microsoft Azure fundamenten",
+  "courses.4.description": "Cursus AZ-900: basisconcepten van Microsoft Azure.",
+  "courses.4.duration": "Duur: 24 uur",
+
+  "courses.3.title": "Nov/2023: Responsief webdesign",
+  "courses.3.description": "Geavanceerde HTML- en CSS-basisprincipes van responsive design, het bouwen van diverse praktische projecten tot applicaties zoals foto’s, quizzen en layouts. Cursus aangeboden door freeCodeCamp.",
+  "courses.3.duration": "Duur: 300 uur",
+
+  "courses.2.title": "Aug/2022: Complete webontwikkeling met JavaScript",
+  "courses.2.description": "Geavanceerde concepten in JS en fundamentele concepten in React, Vue en Angular 9. Hiermee bouw je moderne, volledige webapplicaties en beheers je zowel frontend als backend. Cursus aangeboden door Udemy.",
+  "courses.2.duration": "Duur: 98 uur",
+
+  "courses.1.title": "Apr/2022: Volledige C# Objectgeoriënteerd programmeren",
+  "courses.1.description": "Cursus Objectgeoriënteerd programmeren in C#, waarin je flexibele oplossingen creëert en UML-klassendiagrammen begrijpt. Cursus aangeboden door Udemy.",
+  "courses.1.duration": "Duur: 38 uur",
+
+  "projects.sectionTitle": "Projecten",
+  "projects.visitButton": "Bezoek",
+
+  "projects.0.title": "3D_Ecommerce",
+  "projects.1.title": "Mini-Game",
+  "projects.2.title": "Tevredenheidsonderzoek",
+  "projects.3.title": "Lesplatform",
+  "projects.4.title": "Discord By React",
+
+  "contact.title": "Laten we samenwerken?",
+  "contact.subtitle": "Neem contact mij op:",
+  "contact.downloadButton": "Download CV",
+  "contact.whatsapp": "https://wa.me/31684543297",
+  "contact.cvLink": "https://drive.google.com/file/d/1ASbJ_18j95zidjmQnds0bK9hY-ZQyEci/view?usp=sharing"
 }
