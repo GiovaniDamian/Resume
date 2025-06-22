@@ -21,7 +21,7 @@ export default function CardWelcome({
       }`}
     >
       <>
-        <h2 className="text-xl font-bold mb-2">{title}</h2>
+        <h2 className="text-base font-bold mb-2">{title}</h2>
         {content}
       </>
     </div>
