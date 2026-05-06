@@ -25,20 +25,30 @@
   "card.languages.italian": "Italiaans: Gemiddeld (niveau vier)",
   "card.languages.spanish": "Spaans: Beginner",
 
-  "experience.1.title": "FULL STACK DEVELOPER • NOSTRADAMUS • 08/24 – HEDEN (1 jaar)",
-  "experience.1.item.1": "Ontwikkelen van SaaS-oplossingen om kosten, tijd en controle in de toeleveringsketen te optimaliseren.",
-  "experience.1.item.2": "Onderhoudt en verbetert systemen en processen van het bedrijf en klanten.",
-  "experience.1.item.3": "Helpt bedrijven bij het vereenvoudigen en stroomlijnen van logistieke processen, vermindert operationele tijd en biedt waardevolle inzichten voor besluitvorming.",
+  "experience.5.title": "SOFTWARE ENGINEER \u2022 Profectus \u2022 01/26 – HEDEN",
+  "experience.5.item.1": "Verbeterde systeemarchitectuur, betrouwbaarheid en prestaties door het ontwikkelen en implementeren van nieuwe front-end en back-end functionaliteiten.",
+  "experience.5.item.2": "Werkte nauw samen met oprichters aan productbeslissingen en ontwikkelde onderhoudbare en goed gedocumenteerde code.",
+  "experience.5.item.3": "Ondersteunde MT5-integraties en nam deel aan test- en deploymentworkflows.",
+
+  "experience.4.title": "FULL STACK DEVELOPER \u2022 Grovero \u2022 07/25 – 12/25 (6 maanden)",
+  "experience.4.item.1": "Leidde en ondersteunde de ontwikkeling van mobiele apps voor zowel front-end als back-end systemen en beheerde cloudinfrastructuur en -diensten.",
+  "experience.4.item.2": "Zorgde voor betrouwbare communicatie tussen de applicatie en firmwarecomponenten, inclusief sensoren en actuatoren.",
+  "experience.4.item.3": "Werkte samen met firmware- en hardwareteams om schaalbare, veilige en onderhoudbare platformintegraties te bouwen.",
+
+  "experience.3.title": "FULL STACK DEVELOPER • NOSTRADAMUS • 08/24 – HEDEN (1 jaar)",
+  "experience.3.item.1": "Ontwikkelen van SaaS-oplossingen om kosten, tijd en controle in de toeleveringsketen te optimaliseren.",
+  "experience.3.item.2": "Onderhoudt en verbetert systemen en processen van het bedrijf en klanten.",
+  "experience.3.item.3": "Helpt bedrijven bij het vereenvoudigen en stroomlijnen van logistieke processen, vermindert operationele tijd en biedt waardevolle inzichten voor besluitvorming.",
 
   "experience.2.title": "FULL STACK DEVELOPER • MULTILOG / FAPESC • 03/22 – 10/23 (1 jaar en 7 maanden)",
   "experience.2.item.1": "Webapplicaties ontwikkelen voor import- en exportactiviteiten, inclusief douanecontrole in samenwerking met de belastingdienst.",
   "experience.2.item.2": "Werken aan gelaagde systemen met microservices om prestaties te verbeteren en aangepaste oplossingen te bieden.",
   "experience.2.item.3": "Samenwerken met een multidisciplinair ontwikkelingsteam met behulp van agile methodologieën en best practices voor implementatie.",
 
-  "experience.3.title": "ADMINISTRATIEF SUPERVISOR • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 jaar en 8 maanden)",
-  "experience.3.item.1": "Operationeel en administratief beheer in de commerciële afdeling;",
-  "experience.3.item.2": "Onderhandelingen met leveranciers en klanten;",
-  "experience.3.item.3": "Beheer van bestellingen, leveringen, voorraden en voertuigen.",
+  "experience.1.title": "ADMINISTRATIEF SUPERVISOR • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 jaar en 8 maanden)",
+  "experience.1.item.1": "Operationeel en administratief beheer in de commerciële afdeling;",
+  "experience.1.item.2": "Onderhandelingen met leveranciers en klanten;",
+  "experience.1.item.3": "Beheer van bestellingen, leveringen, voorraden en voertuigen.",
    
   "education.1.title": "FULL STACK DEVELOPER • 2025 • AWARI",
   "education.1.item.1": "Front-End - Git en versiebeheer, Webtechnologieën, JavaScript-programmering, React.js, Structurering van React.js-apps, Best Practices, API-consumptie, Geavanceerde React.js-concepten, Unittests, End-to-End-tests, Softwaredocumentatie, Optimalisatie en SEO.",

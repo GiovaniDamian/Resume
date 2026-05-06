@@ -67,51 +67,7 @@ export default function TemplatesWelcome() {
             </>,
           ]}
         />
-        <div
-          className={`ml-1 justify-end w-full 300:container overscroll-contain`}
-        >
-          <CardWelcome
-            key="experience"
-            title={t("card.experience.title", language)}
-            content={[
-              <div key={`experience0`} className="flex">
-                <article className="w-2/3 border-r-2 mr-4 flex flex-col">
-                  <h4 className="underline font-bold mb-1">
-                    {t("experience.1.title", language)}
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>{t("experience.1.item.1", language)} </li>
-                    <li>{t("experience.1.item.2", language)} </li>
-                    <li>{t("experience.1.item.3", language)} </li>
-                  </ul>
-                </article>
-
-                <article className="border-r-2 w-1/2 flex flex-col">
-                  <h4 className="underline font-bold mb-1">
-                    {t("experience.2.title", language)}
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>{t("experience.2.item.1", language)} </li>
-                    <li>{t("experience.2.item.2", language)} </li>
-                    <li>{t("experience.2.item.3", language)} </li>
-                  </ul>
-                </article>
-
-                <article className="ml-4 flex flex-col">
-                  <h4 className="underline font-bold mb-1">
-                    {t("experience.3.title", language)}
-                  </h4>
-                  <ul className="list-disc list-inside">
-                    <li>{t("experience.3.item.1", language)} </li>
-                    <li>{t("experience.3.item.2", language)} </li>
-                    <li>{t("experience.3.item.3", language)} </li>
-                  </ul>
-                </article>
-              </div>,
-            ]}
-            isVisible={showExperience}
-          />
-        </div>
+        
       </div>
       <div className="grid grid-cols-4 m-3 p-2 mt-6">
         <div className="mr-8 self-start 300:absolute top-40 left-0 w-full">
@@ -228,7 +184,72 @@ export default function TemplatesWelcome() {
             ]}
             isVisible={showEducation}
           />
+          
+          <CardWelcome
+            key="experience"
+            title={t("card.experience.title", language)}
+            content={[
+              <div key={`experience0`} className="p-1">
+                <article className="mb-2 pb-2 border-b-2">
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.5.title", language)}
+                  </h4>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.5.item.1", language)} </li>
+                    <li>{t("experience.5.item.2", language)} </li>
+                    <li>{t("experience.5.item.3", language)} </li>
+                  </ul>
+                </article>
+
+                <article className="mb-2 pb-2 border-b-2">
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.4.title", language)}
+                  </h4>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.4.item.1", language)} </li>
+                    <li>{t("experience.4.item.2", language)} </li>
+                    <li>{t("experience.4.item.3", language)} </li>
+                  </ul>
+                </article>
+
+                <article className="mb-2 pb-2 border-b-2">
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.3.title", language)}
+                  </h4>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.3.item.1", language)} </li>
+                    <li>{t("experience.3.item.2", language)} </li>
+                    <li>{t("experience.3.item.3", language)} </li>
+                  </ul>
+                </article>
+
+                <article className="mb-2 pb-2 border-b-2">
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.2.title", language)}
+                  </h4>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.2.item.1", language)} </li>
+                    <li>{t("experience.2.item.2", language)} </li>
+                    <li>{t("experience.2.item.3", language)} </li>
+                  </ul>
+                </article>
+
+                <article>
+                  <h4 className="underline font-bold mb-1">
+                    {t("experience.1.title", language)}
+                  </h4>
+                  <ul className="list-disc list-inside">
+                    <li>{t("experience.1.item.1", language)} </li>
+                    <li>{t("experience.1.item.2", language)} </li>
+                    <li>{t("experience.1.item.3", language)} </li>
+                  </ul>
+                </article>
+              </div>,
+            ]}
+            isVisible={showExperience}
+          />
         </div>
+        
       </div>
     </>
   );

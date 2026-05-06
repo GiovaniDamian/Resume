@@ -25,20 +25,30 @@
   "card.languages.italian": "Italian: Intermediate (level four)",
   "card.languages.spanish": "Spanish: Beginner",
 
-  "experience.1.title": "FULL STACK DEVELOPER • NOSTRADAMUS • 08/24 – CURRENT (1 year)",
-  "experience.1.item.1": "Developing SaaS solutions to optimize costs, time, and control in the supply chain.",
-  "experience.1.item.2": "Maintains and improves company and client systems and processes.",
-  "experience.1.item.3": "Helps companies simplify and streamline logistics, reduce time, and gain insights for decision-making.",
+  "experience.5.title": "Software Engineer • Profectus • 01/26 – Current",
+  "experience.5.item.1": "Improve system architecture, reliability, and performance by developing and implementing new front-end and back-end features.",
+  "experience.5.item.2": "Collaborate closely with founders on product decisions while developing maintainable and well-documented code.",
+  "experience.5.item.3": "Support MT5 integrations and participate in testing and deployment workflows.",
+
+  "experience.4.title": "FULL STACK DEVELOPER • Grovero • 07/25 – 12/25 (6 months)",
+  "experience.4.item.1": "Lead and support mobile app development across front-end and back-end systems while managing cloud infrastructure and services.",
+  "experience.4.item.2": "Ensure reliable communication between the application and firmware components, including sensors and actuators.",
+  "experience.4.item.3": "Collaborate with firmware and hardware teams to build scalable, secure, and maintainable platform integrations.",
+
+  "experience.3.title": "FULL STACK DEVELOPER • NOSTRADAMUS • 08/24 – 07/25 (1 year)",
+  "experience.3.item.1": "Developing SaaS solutions to optimize costs, time, and control in the supply chain.",
+  "experience.3.item.2": "Maintains and improves company and client systems and processes.",
+  "experience.3.item.3": "Helps companies simplify and streamline logistics, reduce time, and gain insights for decision-making.",
 
   "experience.2.title": "FULL STACK DEVELOPER • MULTILOG / FAPESC • 03/22 – 10/23 (1 year and 7 months)",
   "experience.2.item.1": "Develop web applications for import/export operations, including customs controls with the Federal Revenue Service.",
   "experience.2.item.2": "Work on multi-layered systems using microservices to enhance performance and deliver custom solutions.",
   "experience.2.item.3": "Collaborate with a multidisciplinary development team using agile methodology and deployment best practices.",
 
-  "experience.3.title": "ADMINISTRATIVE SUPERVISOR • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 years and 8 months)",
-  "experience.3.item.1": "Operational and administrative management in the commercial area;",
-  "experience.3.item.2": "Negotiations with suppliers and customers;",
-  "experience.3.item.3": "Control of orders, deliveries, inventory, and vehicles.",
+  "experience.1.title": "ADMINISTRATIVE SUPERVISOR • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 years and 8 months)",
+  "experience.1.item.1": "Operational and administrative management in the commercial area;",
+  "experience.1.item.2": "Negotiations with suppliers and customers;",
+  "experience.1.item.3": "Control of orders, deliveries, inventory, and vehicles.",
 
   "education.1.title": "FULL STACK DEVELOPER • 2025 • AWARI",
   "education.1.item.1": "Front-End - Git and Versioning, Web Technologies, JavaScript Programming, React.js, Structuring React.js Apps, Best Practices, Consuming APIs, Advanced React.js Concepts, Unit Tests, End-to-End Testing, Software Documentation, Optimization and SEO.",
