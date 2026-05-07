@@ -30,38 +30,107 @@ export default function TemplatesWelcome() {
     <>
       <div className="flex flex-row h-32">
         <Section
-          classNameItems="flex w-60 "
+          classNameItems="flex w-full max-w-[980px] gap-4 items-start"
           classNameTop="mt-10"
           items={[
             <>
               <Cube
+              text="C#"
                 icon={
                   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
                 }
               />
               <Cube
+              text=".NET"
                 icon={
                   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg"
                 }
               />
               <Cube
+                text="JS"
                 icon={
                   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
                 }
               />
               <Cube
+              text="TS"
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                }
+              />
+              <Cube
+              text="Docker"
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+                }
+              />
+              <Cube
+                text="HTML"
                 icon={
                   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
                 }
               />
               <Cube
+              text="CSS"
                 icon={
                   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
                 }
               />
               <Cube
+              text="React"
                 icon={
                   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                }
+              />
+              <Cube
+              text="Vue"
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+                }
+              />
+              <Cube
+              text="Node"
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                }
+              />
+              <Cube
+              text="Python"
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                }
+              />
+              <Cube
+              text="Java"
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                }
+              />
+              <Cube
+              text="Flutter"  
+                icon={
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+                }
+              />
+              <Cube
+              text="Tailwind"
+              textSide={7} 
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                }
+              />
+               <Cube
+              text="Material UI"
+              textSide={7}  
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
+                }
+              />
+              <Cube
+              text="Bootstrap"
+              textSide={7}  
+                icon={
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
                 }
               />
             </>,
