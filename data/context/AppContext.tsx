@@ -1,8 +1,8 @@
 import { createContext, useEffect, useState } from "react";
 
 interface AppContextProps {
-  language: "pt" | "en" | "nl";
-  changeLanguage: (lang: "pt" | "en" | "nl") => void;
+  language: "pt" | "en" | "nl" | "it" | "es";
+  changeLanguage: (lang: "pt" | "en" | "nl" | "it" | "es") => void;
 }
 
 const AppContext = createContext<AppContextProps>({
@@ -11,16 +11,16 @@ const AppContext = createContext<AppContextProps>({
 });
 
 export function AppProvider(props: any) {
-  const [language, setLanguage] = useState<"pt" | "en" | "nl">("en");
+  const [language, setLanguage] = useState<"pt" | "en" | "nl" | "it" | "es">("en");
 
-  function changeLanguage(lang: "pt" | "en" | "nl") {
+  function changeLanguage(lang: "pt" | "en" | "nl" | "it" | "es") {
     setLanguage(lang);
     localStorage.setItem("language", lang);
   }
 
   useEffect(() => {
     const languageSave =
-      (localStorage.getItem("language") as "pt" | "en" | "nl") ?? "en";
+      (localStorage.getItem("language") as "pt" | "en" | "nl" | "it" | "es") ?? "en";
     setLanguage(languageSave);
   }, []);
 

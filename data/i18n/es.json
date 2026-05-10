@@ -1,0 +1,119 @@
+{
+  "about": "Sobre",
+  "courses": "Cursos",
+  "projects": "Proyectos",
+  "contact": "Contactos",
+
+  "welcome.name": "GIOVANI DAMIAN SANTOS",
+  "welcome.role": "DESARROLLADOR Y ESPECIALISTA EN SOFTWARE",
+
+  "section.title": "haz clic en cada objeto de esta página:",
+
+  "button.experience": "Experiencia",
+  "button.skills": "Habilidades",
+  "button.education": "Educación",
+
+  "card.experience.title": "Experiencia",
+  "card.skills.title": "Habilidades",
+  "card.education.title": "Educación",
+  "card.languages.title": "Idiomas",
+  "card.skills.text.1": "Comunicación en diversos niveles;",
+  "card.skills.text.2": "Lógica, matemáticas, dinamismo y organización;",
+  "card.skills.text.3": "Proactividad, determinación y ética.",
+  "card.languages.portuguese": "Portugués: Nativo",
+  "card.languages.english": "Inglés: Avanzado",
+  "card.languages.italian": "Italiano: Intermedio (nivel cuatro)",
+  "card.languages.spanish": "Español: Principiante",
+
+  "experience.5.title": "Ingeniero de Software • Profectus • 01/26 – Actual",
+  "experience.5.item.1": "Mejorar la arquitectura del sistema, la fiabilidad y el rendimiento desarrollando e implementando nuevas funciones front-end y back-end.",
+  "experience.5.item.2": "Colaborar estrechamente con los fundadores en decisiones de producto mientras se desarrolla código mantenible y bien documentado.",
+  "experience.5.item.3": "Soportar integraciones MT5 y participar en los flujos de pruebas y despliegue.",
+
+  "experience.4.title": "DESARROLLADOR FULL STACK • Grovero • 07/25 – 12/25 (6 meses)",
+  "experience.4.item.1": "Liderar y apoyar el desarrollo de aplicaciones móviles en sistemas front-end y back-end mientras se gestionan infraestructuras y servicios en la nube.",
+  "experience.4.item.2": "Asegurar la comunicación fiable entre la aplicación y los componentes de firmware, incluidos sensores y actuadores.",
+  "experience.4.item.3": "Colaborar con equipos de firmware y hardware para construir integraciones de plataforma escalables, seguras y mantenibles.",
+
+  "experience.3.title": "DESARROLLADOR FULL STACK • NOSTRADAMUS • 08/24 – 07/25 (1 año)",
+  "experience.3.item.1": "Desarrollar soluciones SaaS para optimizar costos, tiempo y control en la cadena de suministro.",
+  "experience.3.item.2": "Mantener y mejorar los sistemas y procesos de la empresa y de los clientes.",
+  "experience.3.item.3": "Ayudar a las empresas a simplificar y agilizar la logística, reducir tiempos y obtener información para la toma de decisiones.",
+
+  "experience.2.title": "DESARROLLADOR FULL STACK • MULTILOG / FAPESC • 03/22 – 10/23 (1 año y 7 meses)",
+  "experience.2.item.1": "Desarrollar aplicaciones web para operaciones de importación y exportación, incluidos controles aduaneros con la Receita Federal.",
+  "experience.2.item.2": "Trabajar en sistemas multicapa utilizando microservicios para mejorar el rendimiento y ofrecer soluciones personalizadas.",
+  "experience.2.item.3": "Colaborar con un equipo de desarrollo multidisciplinario utilizando metodología ágil y buenas prácticas de despliegue.",
+
+  "experience.1.title": "SUPERVISOR ADMINISTRATIVO • PANFACIL ALIMENTOS S/A • 09/15 – 05/19 (3 años y 8 meses)",
+  "experience.1.item.1": "Gestión operativa y administrativa en el área comercial;",
+  "experience.1.item.2": "Negociaciones con proveedores y clientes;",
+  "experience.1.item.3": "Control de pedidos, entregas, inventario y vehículos.",
+
+  "education.1.title": "FULL STACK DEVELOPER • 2025 • AWARI",
+  "education.1.item.1": "Front-End - Git y control de versiones, tecnologías Web, programación JavaScript, React.js, estructuración de apps React.js, buenas prácticas, consumo de APIs, conceptos avanzados de React.js, pruebas unitarias, pruebas end-to-end, documentación de software, optimización y SEO.",
+  "education.1.item.2": "Back-End - Conceptos básicos, fundamentos de Node.js, buenas prácticas, bases de datos, MongoDB, conceptos avanzados de Node.js, patrones de diseño, buffers y streams, testing.",
+
+  "education.2.title": "ESPECIALIZACIÓN EN INFRAESTRUCTURA DE SOFTWARE TECNOLÓGICO • 2021 • UNIVERSIDAD EUROPEA DEL ATLÂNTICO",
+  "education.2.description": "Arquitecturas, redes y sistemas distribuidos; seguridad y gestión de redes; gestión de bases de datos y recursos de información; lenguajes y paradigmas de programación; tecnología web e ingeniería web.",
+  "education.2.note": "Duración total: 380 horas.",
+  "education.2.activities": "Actividades complementarias:",
+  "education.2.item.1": "Cursos online complementarios;",
+  "education.2.item.2": "Proyectos de diseño web y base de datos;",
+  "education.2.item.3": "Sitio web;",
+  "education.2.item.4": "Participación en TDC 2022/2023/2024.",
+
+  "education.3.title": "ADMINISTRACIÓN DE EMPRESAS • 2018 • UNIVERSIDAD DEL ESTADO DE SANTA CATARINA",
+  "education.3.item.1": "Título universitario (3600 horas);",
+  "education.3.item.2": "Proyectos sociales;",
+  "education.3.item.3": "Participación en Exposuper, Expoagas y Agile Challenges.",
+
+  "courses.sectionTitle": "Últimos cursos",
+
+  "courses.8.title": "Jun/2024: Programación Front-end",
+  "courses.8.description": "Domina React.js, la librería líder de mercado para Front-End, desde los fundamentos de HTML, CSS y JavaScript hasta el uso de APIs y pruebas end-to-end, y desarrolla interfaces web y web apps eficientes y escalables.",
+  "courses.8.duration": "Duración: 120h",
+
+  "courses.7.title": "May/2024: Three.js, React Three Fiber, Drei, React Spring & More",
+  "courses.7.description": "El curso enseña cómo construir sitios 3D inmersivos y creativos usando Three.js y React.",
+  "courses.7.duration": "Duración: 12h",
+
+  "courses.6.title": "Apr/2024: Next.js and React",
+  "courses.6.description": "Aplicaciones React profesionales con el framework NextJS! Además de proyectos con TailwindCSS, TypeScript y Firebase. Curso ofrecido por Udemy.",
+  "courses.6.duration": "Duración: 28h",
+
+  "courses.5.title": "Mar/2024: JavaScript Algorithms and Data Structures",
+  "courses.5.description": "Fundamentos de JavaScript como variables, arrays, objetos, bucles, funciones, el DOM y más. Curso ofrecido por freeCodeCamp.",
+  "courses.5.duration": "Duración: 300h",
+
+  "courses.4.title": "Feb/2024: Microsoft Azure Fundamentals",
+  "courses.4.description": "Curso AZ-900: conceptos básicos de Microsoft Azure.",
+  "courses.4.duration": "Duración: 24h",
+
+  "courses.3.title": "Nov/2023: Diseño Web Responsivo",
+  "courses.3.description": "Fundamentos avanzados de HTML y CSS para diseño responsive, construcción de una variedad de proyectos prácticos y aplicaciones como fotos, quizzes y layouts. Curso ofrecido por freeCodeCamp.",
+  "courses.3.duration": "Duración: 300h",
+
+  "courses.2.title": "Aug/2022: Web Completo con JavaScript",
+  "courses.2.description": "Conceptos avanzados en JS y conceptos fundamentales en React, Vue y Angular 9. Permite construir aplicaciones web modernas y completas, dominando tanto frontend como backend. Curso ofrecido por Udemy.",
+  "courses.2.duration": "Duración: 98h",
+
+  "courses.1.title": "Apr/2022: C# COMPLETE Object Oriented Programming",
+  "courses.1.description": "Curso de Programación Orientada a Objetos en C#, creando soluciones flexibles y comprendiendo diagramas UML de clases. Curso ofrecido por Udemy.",
+  "courses.1.duration": "Duración: 38h",
+
+  "projects.sectionTitle": "Proyectos",
+  "projects.visitButton": "Visitar",
+
+  "projects.0.title": "3D_Ecommerce",
+  "projects.1.title": "Mini-Game",
+  "projects.2.title": "Satisfaction Survey",
+  "projects.3.title": "Classes Platform",
+  "projects.4.title": "Discord By React",
+
+  "contact.title": "¿Trabajamos juntos?",
+  "contact.subtitle": "Ponte en contacto:",
+  "contact.downloadButton": "Descargar CV",
+  "contact.whatsapp": "https://wa.me/31684543297",
+  "contact.cvLink": "https://drive.google.com/file/d/1ASbJ_18j95zidjmQnds0bK9hY-ZQyEci/view?usp=sharing"
+}

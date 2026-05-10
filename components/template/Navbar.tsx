@@ -2,8 +2,8 @@ import NavItem from "./NavItem";
 import t from "./../../data/i18n/translations";
 
 interface NavBarProps {
-  language?: "pt" | "en" | "nl";
-  changeLanguage?: (lang: "pt" | "en" | "nl") => void;
+  language?: "pt" | "en" | "nl" | "it" | "es";
+  changeLanguage?: (lang: "pt" | "en" | "nl" | "it" | "es") => void;
 }
 
 export default function Navbar(props: NavBarProps) {
@@ -17,13 +17,15 @@ export default function Navbar(props: NavBarProps) {
             <select
               value={lang}
               onChange={(e) =>
-                props.changeLanguage?.(e.target.value as "pt" | "en" | "nl")
+                props.changeLanguage?.(e.target.value as "pt" | "en" | "nl" | "it" | "es")
               }
               className="rounded-md text-black px-2 py-1 text-sm"
             >
               <option value="pt">🇧🇷 Português</option>
               <option value="en">🇺🇸 English</option>
               <option value="nl">🇳🇱 Nederlands</option>
+              <option value="it">🇮🇹 Italiano</option>
+              <option value="es">🇪🇸 Español</option>
             </select>
           </label>
         </li>
