@@ -4,7 +4,6 @@ import CardWelcome from "./CardWelcome";
 import Section from "./Section";
 import Cube from "./Cube";
 import useAppData from "../../data/hook/useAppData";
-import "/node_modules/flag-icons/css/flag-icons.min.css";
 import t from "../../data/i18n/translations";
 
 export default function TemplatesWelcome() {
@@ -13,6 +12,7 @@ export default function TemplatesWelcome() {
   const [showEducation, setShowEducation] = useState(false);
   const [buttonClicked, setButtonClicked] = useState("");
   const { language } = useAppData();
+    const [openAllCubes, setOpenAllCubes] = useState(false); // Added state for openAllCubes
   const handleButtonClick = (section: string) => {
     if (buttonClicked === section) {
       setButtonClicked("");
@@ -26,6 +26,18 @@ export default function TemplatesWelcome() {
       setShowEducation(section === "education");
     }
   };
+    const handleOpenAll = () => {
+      const next = !openAllCubes;
+      setOpenAllCubes(next);
+      try {
+        window.dispatchEvent(new CustomEvent('open-all-cubes', { detail: { open: next } }));
+      } catch (e) {
+        // fallback for older browsers
+        const ev = document.createEvent('CustomEvent');
+        ev.initCustomEvent('open-all-cubes', true, true, { open: next });
+        window.dispatchEvent(ev);
+      }
+    };
   return (
     <>
       <div className="flex flex-row h-32">
@@ -33,6 +45,7 @@ export default function TemplatesWelcome() {
           classNameItems="flex w-full max-w-[980px] gap-4 items-start"
           classNameTop="mt-10"
           items={[
+
             <>
               <Cube
               text="C#"
@@ -135,7 +148,16 @@ export default function TemplatesWelcome() {
               />
             </>,
           ]}
-        />
+        >
+          <div className="mb-1">
+            <button
+              onClick={handleOpenAll}
+              className="px-3 py-1 bg-blue-500 text-white rounded text-xs"
+            >
+              {t("button.openAll", language)}
+            </button>
+          </div>
+        </Section>
         
       </div>
       <div className="grid grid-cols-4 m-3 p-2 mt-6">

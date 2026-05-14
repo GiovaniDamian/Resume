@@ -12,6 +12,7 @@ export default function Section({
   classNameTop,
   classNameItems,
   items,
+  children,
 }: SectionProps) {
   const { language } = useAppData();
 
@@ -20,6 +21,7 @@ export default function Section({
       <h2 style={{ color: "#000", fontSize: 12 }}>
         {t("section.title", language)}
       </h2>
+      {children}
       {items.map(
         (
           item:

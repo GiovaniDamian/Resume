@@ -18,29 +18,57 @@ function BoxWithIcon({ icon, text, textSide }: BoxWithIconProps) {
     const openedScale: [number, number, number] = [2.2, 2.2, 2.2];
 
     useEffect(() => {
+        let cancelled = false;
+        let objectURL = '';
         const loadTexture = async () => {
             try {
                 const response = await fetch(icon);
-                if (!response.ok) {
-                    throw new Error('Failed to load texture');
-                }
+                if (!response.ok) throw new Error('Failed to load texture');
                 const blob = await response.blob();
-                const objectURL = URL.createObjectURL(blob);
-                const texture = new THREE.TextureLoader().load(objectURL);
-                setTexture(texture);
+                objectURL = URL.createObjectURL(blob);
+                const img = new Image();
+                await new Promise<void>((resolve, reject) => {
+                    img.onload = () => resolve();
+                    img.onerror = reject;
+                    img.src = objectURL;
+                });
+                if (cancelled) return;
+                const size = 128;
+                const canvas = document.createElement('canvas');
+                canvas.width = size;
+                canvas.height = size;
+                const ctx = canvas.getContext('2d');
+                if (ctx) {
+                    ctx.drawImage(img, 0, 0, size, size);
+                    const tex = new THREE.CanvasTexture(canvas);
+                    setTexture(tex);
+                }
+                URL.revokeObjectURL(objectURL);
             } catch (error) {
                 console.error('Error loading texture:', error);
             }
         };
-
         loadTexture();
-
         return () => {
-            if (texture) {
-                texture.dispose();
-            }
+            cancelled = true;
+            if (objectURL) URL.revokeObjectURL(objectURL);
         };
     }, [icon]);
+
+    useEffect(() => {
+        const handler = (e: Event) => {
+            const detail = (e as CustomEvent).detail;
+            if (detail && typeof detail.open !== 'undefined') {
+                setClicked(!!detail.open);
+                if (ref.current) {
+                    ref.current.rotation.x = 0;
+                    ref.current.rotation.y = 0;
+                }
+            }
+        };
+        window.addEventListener('open-all-cubes', handler as EventListener);
+        return () => window.removeEventListener('open-all-cubes', handler as EventListener);
+    }, []);
 
     useEffect(() => {
         if (ref.current) {

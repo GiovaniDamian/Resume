@@ -7,11 +7,12 @@
   "welcome.name": "GIOVANI DAMIAN SANTOS",
   "welcome.role": "DEVELOPER AND SOFTWARE SPECIALIST",
 
-  "section.title": "click on each object of this page:",
+  "section.title": "click on each object of this page",
 
   "button.experience": "Experience",
   "button.skills": "Skills",
   "button.education": "Education",
+  "button.openAll": "Open all cubes",
 
   "card.experience.title": "Experience",
   "card.skills.title": "Skills",

@@ -7,11 +7,12 @@
   "welcome.name": "GIOVANI DAMIAN SANTOS",
   "welcome.role": "ONTWIKKELAAR EN SOFTWARESPECIALIST",
 
-  "section.title": "klik op elk object van deze pagina:",
+  "section.title": "klik op elk object van deze pagina",
 
   "button.experience": "Ervaring",
   "button.skills": "Vaardigheden",
   "button.education": "Opleiding",
+  "button.openAll": "Open alle kubussen",
 
   "card.experience.title": "Ervaring",
   "card.skills.title": "Vaardigheden",

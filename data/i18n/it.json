@@ -7,11 +7,12 @@
   "welcome.name": "GIOVANI DAMIAN SANTOS",
   "welcome.role": "SVILUPPATORE E SPECIALISTA SOFTWARE",
 
-  "section.title": "clicca su ogni oggetto di questa pagina:",
+  "section.title": "clicca su ogni oggetto di questa pagina",
 
   "button.experience": "Esperienza",
   "button.skills": "Competenze",
   "button.education": "Istruzione",
+  "button.openAll": "Apri tutti i cubi",
 
   "card.experience.title": "Esperienza",
   "card.skills.title": "Competenze",
