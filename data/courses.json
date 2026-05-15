@@ -1,4 +1,14 @@
 [
+   {
+    "id": 9,
+    "href": "udemy.com/course/curso-docker/",
+    "title": "Jul/2025: Docker Profissional",
+    "entitle": "Jul/2025: Docker Professional",
+    "text": "Aprenda a criar ambientes profissionais completos com Docker, a principal tecnologia de containers do mercado. Domine containers, criação e publicação de imagens, gerenciamento de micro serviços e integração contínua baseada em containers.",
+    "enText": "Learn to create complete professional environments with Docker, the leading container technology. Master containers, image creation and publishing, microservices management, and CI tools based on containers.",
+    "duration": "Duração: 20h",
+    "enDuration": "Duration: 20h"
+  },
   {
     "id": 8,
     "href": "https://awari.com.br/curso/front-end/",
@@ -79,4 +89,5 @@
     "duration": "Duração: 38h",
     "enDuration": "Duration: 38h"
   }
+ 
 ]

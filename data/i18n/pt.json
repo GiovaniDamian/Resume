@@ -103,6 +103,10 @@
   "courses.1.description": "Curso de Programação Orientada a Objetos em C#, criando soluções flexíveis e compreendendo diagramas de classe UML. Curso oferecido pela Udemy.",
   "courses.1.duration": "Duração: 38h",
 
+  "courses.9.title": "Jul/2025: Docker Profissional",
+  "courses.9.description": "Aprenda a criar ambientes profissionais completos com Docker, a principal tecnologia de containers do mercado. Domine containers, criação e publicação de imagens, gerenciamento de micro serviços e integração contínua baseada em containers.",
+  "courses.9.duration": "Duração: 20h",
+
   "projects.sectionTitle": "Projetos",
   "projects.visitButton": "Visite",
 

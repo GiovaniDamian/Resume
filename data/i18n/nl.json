@@ -103,6 +103,10 @@
   "courses.1.description": "Cursus Objectgeoriënteerd programmeren in C#, waarin je flexibele oplossingen creëert en UML-klassendiagrammen begrijpt. Cursus aangeboden door Udemy.",
   "courses.1.duration": "Duur: 38 uur",
 
+  "courses.9.title": "Jul/2025: Docker Professional",
+  "courses.9.description": "Leer hoe je complete professionele omgevingen maakt met Docker, de toonaangevende containertechnologie. Beheers containers, het maken en publiceren van images, microservicesbeheer en CI-tools op basis van containers.",
+  "courses.9.duration": "Duur: 20 uur",
+
   "projects.sectionTitle": "Projecten",
   "projects.visitButton": "Bezoek",
 
